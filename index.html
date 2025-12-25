@@ -8,52 +8,34 @@
 </head>
 
 <body>
-<header style="padding:30px; text-align:center;">
-  <h1>ORBIT Non-Proceedings Meetings</h1>
-  <p style="color:#555;">A contextual reference list (not a ranking).</p>
-  <!-- ORBIT ANIMATION HERO (CSS-only) -->
-<div class="orbit-hero">
-  <div class="orbit-card">
-    <div class="orbit-center">ORBIT</div>
 
-    <div class="ring r1">
-      <div class="sat s1" title="Medicine & Health"></div>
-    </div>
-    <div class="ring r2">
-      <div class="sat s2" title="Biology & Life Sciences"></div>
-    </div>
-    <div class="ring r3">
-      <div class="sat s3" title="Business & Economics"></div>
-    </div>
-    <div class="ring r4">
-      <div class="sat s4" title="Social Sciences"></div>
-    </div>
-    <div class="ring r5">
-      <div class="sat s5" title="Humanities & Arts"></div>
-    </div>
-    <div class="ring r6">
-      <div class="sat s6" title="Physical & Mathematical Sciences"></div>
-    </div>
+<!-- GLOBAL ORBIT ANIMATION (VISIBLE ON ALL PAGES) -->
+<div class="orbit-global">
+  <div class="center">ORBIT</div>
 
-    <div class="orbit-caption">
-      Objective Ranking through Bias-reduced Integrated Tiers
-    </div>
-  </div>
+  <div class="ring r1"><div class="sat s1" title="Medicine & Health"></div></div>
+  <div class="ring r2"><div class="sat s2" title="Biology & Life Sciences"></div></div>
+  <div class="ring r3"><div class="sat s3" title="Business & Economics"></div></div>
+  <div class="ring r4"><div class="sat s4" title="Social Sciences"></div></div>
+  <div class="ring r5"><div class="sat s5" title="Humanities & Arts"></div></div>
+  <div class="ring r6"><div class="sat s6" title="Physical & Mathematical Sciences"></div></div>
 </div>
 
+<header style="padding:30px; text-align:center; position:relative; z-index:1;">
+  <h1>ORBIT Non-Proceedings Meetings</h1>
+  <p style="color:#555;">A contextual reference list (not a ranking).</p>
 
-  <!-- NAV TABS -->
-  <div style="margin-top:18px;">
-    <a href="index.html" style="margin:0 10px; font-weight:700; text-decoration:none;">Search</a>
-    <a href="pages/search_filter.html" style="margin:0 10px; text-decoration:none;">Search Filter</a>
-    <a href="pages/about.html" style="margin:0 10px; text-decoration:none;">About</a>
-    <a href="pages/criteria.html" style="margin:0 10px; text-decoration:none;">Selection Criteria</a>
-    <a href="pages/faq.html" style="margin:0 10px; text-decoration:none;">FAQ</a>
-    <a href="pages/distribution.html" style="margin:0 10px; text-decoration:none;">Distribution</a>
+  <div style="margin-top:18px; display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+    <a class="navtab active" href="index.html">Search</a>
+    <a class="navtab" href="pages/search_filter.html">Search Filter</a>
+    <a class="navtab" href="pages/about.html">About</a>
+    <a class="navtab" href="pages/criteria.html">Selection Criteria</a>
+    <a class="navtab" href="pages/faq.html">FAQ</a>
+    <a class="navtab" href="pages/distribution.html">Distribution</a>
   </div>
 </header>
 
-<main style="max-width:1100px; margin:auto; padding:20px;">
+<main style="max-width:1100px; margin:auto; padding:20px; position:relative; z-index:1;">
   <input id="search"
          placeholder="Search by meeting, acronym, society, field…"
          style="width:100%; padding:12px; font-size:16px;">
@@ -76,6 +58,6 @@
   </table>
 </main>
 
-<script src="assets/assets/app.js"></script>
+<script src="assets/app.js"></script>
 </body>
 </html>
