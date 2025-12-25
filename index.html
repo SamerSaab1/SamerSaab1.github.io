@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ORBIT Non-Proceedings Meetings</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<header style="padding:30px; text-align:center;">
+  <h1>ORBIT Non-Proceedings Meetings</h1>
+  <p style="color:#555;">
+    A contextual reference list (not a ranking).
+  </p>
+</header>
+
+<main style="max-width:1100px; margin:auto; padding:20px;">
+  <input id="search"
+         placeholder="Search by meeting, acronym, society, field…"
+         style="width:100%; padding:12px; font-size:16px;">
+
+  <p id="count" style="margin-top:10px; color:#666;">
+    Loading data…
+  </p>
+
+  <table border="1" cellpadding="8" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Subdiscipline</th>
+        <th>Meeting</th>
+        <th>Acronym</th>
+        <th>Society</th>
+        <th>Region</th>
+        <th>Confidence</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
