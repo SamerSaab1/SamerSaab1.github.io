@@ -134,3 +134,43 @@ body::before{
 @media (prefers-reduced-motion: reduce){
   .orbit-global .ring{animation:none}
 }
+/* =====================================
+   READABILITY FIX: keep text readable
+   ===================================== */
+
+/* Make header and main sit above the animation */
+header, main { position: relative; z-index: 2; }
+
+/* Put animation behind everything */
+.orbit-global { z-index: 0 !important; }
+body::before  { z-index: -1 !important; }
+
+/* Ensure readable text colors on dark background */
+header h1 { color: #ffffff; text-shadow: 0 2px 16px rgba(0,0,0,0.45); }
+header p  { color: rgba(255,255,255,0.82); }
+
+/* White card panels for content pages (About/FAQ/etc.) */
+.page-card{
+  max-width: 1000px;
+  margin: 18px auto;
+  padding: 18px 18px;
+  background: rgba(255,255,255,0.92);
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0,0,0,0.25);
+  color: #0f172a;
+}
+
+/* Table readability */
+table { background: rgba(255,255,255,0.95); }
+th { background: #eef2f7; }
+td { background: rgba(255,255,255,0.98); }
+
+/* Search input readability */
+input#search{
+  background: rgba(255,255,255,0.98);
+  border: 1px solid rgba(255,255,255,0.55);
+}
+
+/* Status text (e.g., Loading data...) */
+#count { color: rgba(255,255,255,0.85); }
