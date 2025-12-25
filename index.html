@@ -1,18 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ORBIT Non-Proceedings Meetings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="assets/style.css">
+  <title>ORBIT Non-Proceedings Meetings</title>
 </head>
 
 <body>
 
-<!-- GLOBAL ORBIT ANIMATION (VISIBLE ON ALL PAGES) -->
+<!-- GLOBAL ORBIT ANIMATION -->
 <div class="orbit-global">
   <div class="center">ORBIT</div>
-
   <div class="ring r1"><div class="sat s1" title="Medicine & Health"></div></div>
   <div class="ring r2"><div class="sat s2" title="Biology & Life Sciences"></div></div>
   <div class="ring r3"><div class="sat s3" title="Business & Economics"></div></div>
@@ -21,11 +20,11 @@
   <div class="ring r6"><div class="sat s6" title="Physical & Mathematical Sciences"></div></div>
 </div>
 
-<header style="padding:30px; text-align:center; position:relative; z-index:1;">
+<header class="orbit-header">
   <h1>ORBIT Non-Proceedings Meetings</h1>
-  <p style="color:#555;">A contextual reference list (not a ranking).</p>
+  <p>A contextual reference list (not a ranking).</p>
 
-  <div style="margin-top:18px; display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+  <div class="navwrap">
     <a class="navtab active" href="index.html">Search</a>
     <a class="navtab" href="pages/search_filter.html">Search Filter</a>
     <a class="navtab" href="pages/about.html">About</a>
@@ -35,27 +34,33 @@
   </div>
 </header>
 
-<main style="max-width:1100px; margin:auto; padding:20px; position:relative; z-index:1;">
-  <input id="search"
-         placeholder="Search by meeting, acronym, society, field…"
-         style="width:100%; padding:12px; font-size:16px;">
+<main>
+  <div class="page-card">
 
-  <p id="count" style="margin-top:10px; color:#666;">Loading data…</p>
+    <input id="search"
+           placeholder="Search by meeting, acronym, society, field…"
+           style="width:100%; padding:12px; font-size:16px; border-radius:10px; border:1px solid #cbd5e1;">
 
-  <table border="1" cellpadding="8" cellspacing="0" width="100%">
-    <thead>
-      <tr>
-        <th>Category</th>
-        <th>Subdiscipline</th>
-        <th>Meeting</th>
-        <th>Acronym</th>
-        <th>Society</th>
-        <th>Region</th>
-        <th>Confidence</th>
-      </tr>
-    </thead>
-    <tbody id="rows"></tbody>
-  </table>
+    <p id="count" class="meta-text" style="margin-top:10px;">Loading data…</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Subdiscipline</th>
+            <th>Meeting</th>
+            <th>Acronym</th>
+            <th>Society</th>
+            <th>Region</th>
+            <th>Confidence</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+
+  </div>
 </main>
 
 <script src="assets/app.js"></script>
