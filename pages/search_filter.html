@@ -1,0 +1,110 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../assets/assets/style.css">
+<title>Search Filter</title></head><body>
+
+<header style="padding:30px; text-align:center;">
+  <h1>Search Filter</h1>
+  <div style="margin-top:18px;">
+    <a href="../index.html" style="margin:0 10px; text-decoration:none;">Search</a>
+    <a href="search_filter.html" style="margin:0 10px; font-weight:700; text-decoration:none;">Search Filter</a>
+    <a href="about.html" style="margin:0 10px; text-decoration:none;">About</a>
+    <a href="criteria.html" style="margin:0 10px; text-decoration:none;">Selection Criteria</a>
+    <a href="faq.html" style="margin:0 10px; text-decoration:none;">FAQ</a>
+    <a href="distribution.html" style="margin:0 10px; text-decoration:none;">Distribution</a>
+  </div>
+</header>
+
+<main style="max-width:1100px; margin:auto; padding:20px; background:#fff;">
+  <div style="display:grid; grid-template-columns: repeat(5, 1fr); gap:10px;">
+    <select id="cat"><option value="">Category (All)</option></select>
+    <select id="sub"><option value="">Subdiscipline (All)</option></select>
+    <select id="reg"><option value="">Region (All)</option></select>
+    <select id="conf"><option value="">Confidence (All)</option></select>
+    <select id="rec"><option value="">Record Type (All)</option></select>
+  </div>
+
+  <p id="count2" style="margin-top:10px; color:#666;">Loading…</p>
+
+  <table border="1" cellpadding="8" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th>Category</th><th>Subdiscipline</th><th>Meeting</th><th>Acronym</th>
+        <th>Society</th><th>Region</th><th>Record Type</th><th>Confidence</th>
+      </tr>
+    </thead>
+    <tbody id="rows2"></tbody>
+  </table>
+</main>
+
+<script>
+const count2 = document.getElementById("count2");
+const rows2 = document.getElementById("rows2");
+
+function getSociety(m){
+  if (m && typeof m.Organizer === "object" && m.Organizer) return m.Organizer.Society || "";
+  return m["Organizer/Society"] || "";
+}
+function uniq(list){ return Array.from(new Set(list.filter(x=>x))).sort(); }
+function fill(id, vals){
+  const s = document.getElementById(id);
+  vals.forEach(v => {
+    const o = document.createElement("option");
+    o.value = v; o.textContent = v;
+    s.appendChild(o);
+  });
+}
+function render(list){
+  rows2.innerHTML = "";
+  list.forEach(m=>{
+    rows2.innerHTML += `
+      <tr>
+        <td>${m.Category||""}</td>
+        <td>${m.Subdiscipline||""}</td>
+        <td><strong>${m.Meeting||""}</strong></td>
+        <td>${m.Acronym||""}</td>
+        <td>${getSociety(m)}</td>
+        <td>${m.Region||""}</td>
+        <td>${m.NonProceedingsRecordType||""}</td>
+        <td>${m.Confidence||""}</td>
+      </tr>`;
+  });
+  count2.textContent = `${list.length} meetings shown`;
+}
+
+fetch("/data/meetings.json").then(r=>r.json()).then(data=>{
+  fill("cat", uniq(data.map(x=>x.Category)));
+  fill("sub", uniq(data.map(x=>x.Subdiscipline)));
+  fill("reg", uniq(data.map(x=>x.Region)));
+  fill("conf", uniq(data.map(x=>x.Confidence)));
+  fill("rec", uniq(data.map(x=>x.NonProceedingsRecordType)));
+
+  function apply(){
+    const cat = document.getElementById("cat").value;
+    const sub = document.getElementById("sub").value;
+    const reg = document.getElementById("reg").value;
+    const conf = document.getElementById("conf").value;
+    const rec = document.getElementById("rec").value;
+
+    let out = data.slice();
+    if (cat) out = out.filter(x=>x.Category===cat);
+    if (sub) out = out.filter(x=>x.Subdiscipline===sub);
+    if (reg) out = out.filter(x=>x.Region===reg);
+    if (conf) out = out.filter(x=>x.Confidence===conf);
+    if (rec) out = out.filter(x=>x.NonProceedingsRecordType===rec);
+
+    render(out);
+  }
+
+  ["cat","sub","reg","conf","rec"].forEach(id=>{
+    document.getElementById(id).addEventListener("change", apply);
+  });
+
+  render(data);
+}).catch(err=>{
+  console.error(err);
+  count2.textContent = "Failed to load data.";
+});
+</script>
+
+</body></html>
