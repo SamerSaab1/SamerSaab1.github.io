@@ -1,11 +1,19 @@
 /* =========================
-   BASE STYLES
+   BASE STYLES + LAYERS
    ========================= */
 
-body {
-  margin: 0;
+:root{
+  --card-bg: rgba(255,255,255,0.96);
+  --card-border: rgba(255,255,255,0.35);
+  --text-dark: #0f172a;
+  --brand: #0b6b4f;
+  --brand2: #0a4f3b;
+}
+
+body{
+  margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  color: #0f172a;
+  color: var(--text-dark);
 }
 
 /* Dark animated background layer */
@@ -13,14 +21,14 @@ body::before{
   content:"";
   position: fixed;
   inset: 0;
-  z-index: -2;
-  background: radial-gradient(1200px 420px at 50% 15%,
-      rgba(11,27,58,0.85) 0%,
-      rgba(5,8,20,0.92) 55%,
+  z-index: -3;
+  background: radial-gradient(1200px 520px at 50% 14%,
+      rgba(11,27,58,0.86) 0%,
+      rgba(5,8,20,0.94) 55%,
       rgba(2,2,10,1) 100%);
 }
 
-/* Keep all content above the animation */
+/* Keep content above animation */
 header, main { position: relative; z-index: 2; }
 
 /* =========================
@@ -29,96 +37,101 @@ header, main { position: relative; z-index: 2; }
 
 .navtab{
   padding:10px 14px;
-  border-radius:10px;
+  border-radius:12px;
   border:1px solid rgba(255,255,255,0.35);
   text-decoration:none;
   color:#0f172a;
   background: rgba(255,255,255,0.92);
-  font-weight:600;
+  font-weight:700;
+  display:inline-block;
 }
 
-.navtab:hover{
-  background: rgba(255,255,255,0.98);
-}
+.navtab:hover{ background: rgba(255,255,255,0.98); }
 
 .navtab.active{
-  background:#0b6b4f;
-  border-color:#0b6b4f;
+  background: var(--brand);
+  border-color: var(--brand);
   color:#fff;
 }
 
 /* =========================
-   ORBIT HERO HEADER
-   (READABILITY + SPACE)
+   ORBIT HERO HEADER (MORE SPACE)
    ========================= */
 
 .orbit-header{
   position: relative;
-  padding: 48px 20px 150px;   /* bottom padding reserves space for orbit */
   text-align: center;
+  padding: 52px 20px 220px; /* <-- more space reserved for orbit */
   z-index: 2;
 }
 
-/* Dark overlay behind header text only */
+/* Stronger overlay behind header text */
 .orbit-header::before{
   content:"";
   position:absolute;
   inset:0;
   background: linear-gradient(
     to bottom,
-    rgba(2,6,23,0.88) 0%,
-    rgba(2,6,23,0.72) 60%,
-    rgba(2,6,23,0.25) 100%
+    rgba(2,6,23,0.90) 0%,
+    rgba(2,6,23,0.75) 55%,
+    rgba(2,6,23,0.20) 100%
   );
   z-index:-1;
 }
 
 .orbit-header h1{
   color:#ffffff;
-  font-size: 36px;
-  font-weight: 800;
+  font-size: 38px;
+  font-weight: 850;
   letter-spacing: -0.02em;
-  margin: 0 0 8px;
-  text-shadow: 0 4px 18px rgba(0,0,0,0.6);
+  margin: 0 0 10px;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.65);
 }
 
 .orbit-header p{
-  color: rgba(255,255,255,0.88);
+  color: rgba(255,255,255,0.90);
   font-size: 16px;
   margin: 6px 0 18px;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.55);
+}
+
+/* Tabs layout */
+.navwrap{
+  margin-top:18px;
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
 }
 
 /* =========================
-   GLOBAL ORBIT ANIMATION
+   GLOBAL ORBIT ANIMATION (POSITION)
    ========================= */
 
-/* ORBIT CONTAINER (dedicated space below header text) */
 .orbit-global{
   position: fixed;
-  top: 165px;                 /* pushes orbit below text+tabs */
+  top: 210px; /* <-- moved down so it doesn't fight header text */
   left: 50%;
-  transform: translateX(-50%) scale(1.05);
-  width: 360px;
-  height: 260px;
+  transform: translateX(-50%) scale(1.10);
+  width: 380px;
+  height: 280px;
   pointer-events: none;
-  z-index: -1;                /* behind content */
+  z-index: -1; /* behind content */
+  opacity: 0.95;
 }
 
-/* Center label */
 .orbit-global .center{
   position:absolute;
   left:50%;
   top:50%;
   transform: translate(-50%,-60%);
-  font-size:44px;
+  font-size:48px;
   font-weight:900;
   letter-spacing:0.06em;
   color:#7dd3fc;
-  text-shadow:0 0 16px rgba(56,189,248,.6);
+  text-shadow:0 0 18px rgba(56,189,248,.65);
 }
 
-/* Rings */
 .orbit-global .ring{
   position:absolute;
   left:50%;
@@ -128,14 +141,14 @@ header, main { position: relative; z-index: 2; }
   transform-origin:center;
 }
 
-.orbit-global .r1{width:120px;height:62px;transform:translate(-50%,-50%);animation:spin 6s linear infinite}
-.orbit-global .r2{width:165px;height:86px;transform:translate(-50%,-50%);animation:spin 8s linear infinite reverse}
-.orbit-global .r3{width:210px;height:110px;transform:translate(-50%,-50%);animation:spin 10s linear infinite}
-.orbit-global .r4{width:255px;height:134px;transform:translate(-50%,-50%);animation:spin 12s linear infinite reverse}
-.orbit-global .r5{width:300px;height:156px;transform:translate(-50%,-50%);animation:spin 14s linear infinite}
-.orbit-global .r6{width:335px;height:174px;transform:translate(-50%,-50%);animation:spin 16s linear infinite reverse}
+/* ring sizes */
+.orbit-global .r1{width:130px;height:66px;transform:translate(-50%,-50%);animation:spin 6s linear infinite}
+.orbit-global .r2{width:178px;height:92px;transform:translate(-50%,-50%);animation:spin 8s linear infinite reverse}
+.orbit-global .r3{width:226px;height:118px;transform:translate(-50%,-50%);animation:spin 10s linear infinite}
+.orbit-global .r4{width:274px;height:144px;transform:translate(-50%,-50%);animation:spin 12s linear infinite reverse}
+.orbit-global .r5{width:318px;height:168px;transform:translate(-50%,-50%);animation:spin 14s linear infinite}
+.orbit-global .r6{width:352px;height:186px;transform:translate(-50%,-50%);animation:spin 16s linear infinite reverse}
 
-/* Satellites */
 .orbit-global .sat{
   position:absolute;
   top:50%;
@@ -164,34 +177,86 @@ header, main { position: relative; z-index: 2; }
 }
 
 /* =========================
-   CONTENT / TABLE READABILITY
+   CONTENT / CARDS
    ========================= */
 
-main{ margin-top: 20px; }
+main{ margin-top: 18px; padding: 0 20px 40px; }
 
 .page-card{
-  background: rgba(255,255,255,0.96);
-  border-radius: 16px;
-  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border-radius: 18px;
+  padding: 18px 18px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.25);
-  border: 1px solid rgba(255,255,255,0.35);
-  color:#0f172a;
+  border: 1px solid var(--card-border);
+  color: var(--text-dark);
 }
 
-table {
+.card-title{
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.meta-text{
+  color:#334155;
+  margin: 10px 0 10px;
+}
+
+/* =========================
+   FILTER BAR (FIX OVERFLOW)
+   ========================= */
+
+.filters-grid{
+  display:grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap:10px;
+  align-items:center;
+}
+
+.filters-grid select{
+  width:100%;
+  min-width: 160px;
+  padding:8px 10px;
+  border:1px solid #cbd5e1;
+  border-radius:10px;
+  background:#fff;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+@media (max-width: 1100px){
+  .filters-grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 800px){
+  .filters-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px){
+  .filters-grid{ grid-template-columns: 1fr; }
+  .filters-grid select{ min-width: 0; }
+}
+
+/* =========================
+   TABLE
+   ========================= */
+
+.table-wrap{ overflow:auto; margin-top:12px; }
+
+table{
   border-collapse: collapse;
-  margin-top: 15px;
+  width: 100%;
   background: rgba(255,255,255,0.98);
 }
 
-th {
-  background: #eef2f7;
-  font-size: 14px;
+th, td{
+  border:1px solid #7f7f7f;
+  padding:10px 10px;
+  vertical-align: top;
+  font-size: 13px;
 }
 
-td {
-  font-size: 14px;
+th{
+  background:#eef2f7;
+  font-weight:800;
 }
-
-/* Make count text readable on dark bg when outside page-card */
-#count, #count2 { color: rgba(255,255,255,0.88); }
