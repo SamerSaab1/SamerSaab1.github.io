@@ -9,7 +9,7 @@
 
 <body>
 
-<!-- GLOBAL ORBIT ANIMATION (must be inside body) -->
+<!-- GLOBAL ORBIT ANIMATION -->
 <div class="orbit-global">
   <div class="center">ORBIT</div>
   <div class="ring r1"><div class="sat s1" title="Medicine & Health"></div></div>
@@ -22,9 +22,9 @@
 
 <header class="orbit-header">
   <h1>Search Filter</h1>
-  <p style="color:#555;">Filter meetings by category, field, region, confidence, and record type.</p>
+  <p>Filter meetings by category, subdiscipline, region, confidence, and record type.</p>
 
-  <div style="margin-top:18px; display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+  <div class="navwrap">
     <a class="navtab" href="../index.html">Search</a>
     <a class="navtab active" href="search_filter.html">Search Filter</a>
     <a class="navtab" href="about.html">About</a>
@@ -34,10 +34,9 @@
   </div>
 </header>
 
-<main style="max-width:1100px; margin:auto; padding:20px;">
+<main>
   <div class="page-card">
-
-    <div style="display:grid; grid-template-columns: repeat(5, 1fr); gap:10px;">
+    <div class="filters-grid">
       <select id="cat"><option value="">Category (All)</option></select>
       <select id="sub"><option value="">Subdiscipline (All)</option></select>
       <select id="reg"><option value="">Region (All)</option></select>
@@ -45,10 +44,10 @@
       <select id="rec"><option value="">Record Type (All)</option></select>
     </div>
 
-    <p id="count2" style="margin-top:10px; color:#444;">Loading…</p>
+    <p id="count2" class="meta-text">Loading…</p>
 
-    <div style="overflow:auto;">
-      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+    <div class="table-wrap">
+      <table>
         <thead>
           <tr>
             <th>Category</th><th>Subdiscipline</th><th>Meeting</th><th>Acronym</th>
@@ -58,7 +57,6 @@
         <tbody id="rows2"></tbody>
       </table>
     </div>
-
   </div>
 </main>
 
