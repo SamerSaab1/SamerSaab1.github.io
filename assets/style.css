@@ -135,42 +135,81 @@ body::before{
   .orbit-global .ring{animation:none}
 }
 /* =====================================
-   READABILITY FIX: keep text readable
+   ORBIT HERO HEADER (READABILITY + SPACE)
    ===================================== */
 
-/* Make header and main sit above the animation */
-header, main { position: relative; z-index: 2; }
+.orbit-header{
+  position: relative;
+  padding: 48px 20px 120px;   /* bottom padding reserves space for orbit */
+  text-align: center;
+  z-index: 2;
+}
 
-/* Put animation behind everything */
-.orbit-global { z-index: 0 !important; }
-body::before  { z-index: -1 !important; }
+/* Dark overlay behind text (improves contrast) */
+.orbit-header::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(
+    to bottom,
+    rgba(2,6,23,0.85) 0%,
+    rgba(2,6,23,0.70) 55%,
+    rgba(2,6,23,0.25) 100%
+  );
+  z-index:-1;
+}
 
-/* Ensure readable text colors on dark background */
-header h1 { color: #ffffff; text-shadow: 0 2px 16px rgba(0,0,0,0.45); }
-header p  { color: rgba(255,255,255,0.82); }
+/* Title */
+.orbit-header h1{
+  color:#ffffff;
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.6);
+}
 
-/* White card panels for content pages (About/FAQ/etc.) */
+/* Subtitle */
+.orbit-header p{
+  color: rgba(255,255,255,0.88);
+  font-size: 16px;
+  margin: 6px 0 18px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* Nav tabs spacing */
+.orbit-header .navtab,
+.orbit-header a.navtab{
+  margin-top: 6px;
+}
+
+/* =====================================
+   ORBIT ANIMATION POSITIONING
+   ===================================== */
+
+/* Center orbit in reserved space */
+.orbit-global{
+  top: 160px;   /* pushes orbit below text */
+}
+
+/* Make orbit slightly larger for hero feel */
+.orbit-global{
+  transform: translateX(-50%) scale(1.05);
+}
+
+/* =====================================
+   CONTENT SEPARATION
+   ===================================== */
+
+/* Push main content down so it doesn't overlap orbit */
+main{
+  margin-top: 40px;
+}
+
+/* White cards stay readable */
 .page-card{
-  max-width: 1000px;
-  margin: 18px auto;
-  padding: 18px 18px;
-  background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(255,255,255,0.35);
-  border-radius: 14px;
-  box-shadow: 0 18px 50px rgba(0,0,0,0.25);
-  color: #0f172a;
+  background: rgba(255,255,255,0.96);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
 }
-
-/* Table readability */
-table { background: rgba(255,255,255,0.95); }
-th { background: #eef2f7; }
-td { background: rgba(255,255,255,0.98); }
-
-/* Search input readability */
-input#search{
-  background: rgba(255,255,255,0.98);
-  border: 1px solid rgba(255,255,255,0.55);
-}
-
-/* Status text (e.g., Loading data...) */
-#count { color: rgba(255,255,255,0.85); }
