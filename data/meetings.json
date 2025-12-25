@@ -1,0 +1,2382 @@
+[
+ {
+   "ID": 23,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Anaesthesiology",
+   "Meeting": "ASA ANESTHESIOLOGY Annual Meeting",
+   "Acronym": "ASA",
+   "Organizer": {
+      "Society": "American Society of Anesthesiologists"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-based meeting; no standard proceedings volume.",
+   "EvidenceURL": "https://www.asahq.org/annualmeeting",
+   "OfficialURL": "https://www.asahq.org/annualmeeting",
+   "Confidence": "Medium",
+   "Notes": "Major anesthesiology meeting."
+},
+ {
+   "ID": 19,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Breast Cancer",
+   "Meeting": "San Antonio Breast Cancer Symposium",
+   "Acronym": "SABCS",
+   "Organizer": {
+      "Society": "UT Health San Antonio / AACR partners"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Abstract-based symposium; abstracts compiled online/print; not proceedings.",
+   "EvidenceURL": "https://www.sabcs.org/",
+   "OfficialURL": "https://www.sabcs.org/",
+   "Confidence": "Medium",
+   "Notes": "Major breast cancer results venue."
+},
+ {
+   "ID": 3,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Cancer Research",
+   "Meeting": "AACR Annual Meeting",
+   "Acronym": "AACR",
+   "Organizer": {
+      "Society": "American Association for Cancer Research"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract book / journal supplement",
+   "EvidenceSummary": "Accepted abstracts are published as meeting abstracts (abstract book/supplement), not proceedings.",
+   "EvidenceURL": "https://www.aacr.org/meeting/aacr-annual-meeting/",
+   "OfficialURL": "https://www.aacr.org/meeting/aacr-annual-meeting/",
+   "Confidence": "High",
+   "Notes": "Flagship cancer research meeting."
+},
+ {
+   "ID": 6,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Cardiology",
+   "Meeting": "ACC Annual Scientific Session & Expo",
+   "Acronym": "ACC",
+   "Organizer": {
+      "Society": "American College of Cardiology"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract program / archive",
+   "EvidenceSummary": "Abstract-driven scientific program; no standard full-paper proceedings volume.",
+   "EvidenceURL": "https://www.acc.org/latest-in-cardiology/articles",
+   "OfficialURL": "https://www.acc.org/annual-scientific-session",
+   "Confidence": "Medium",
+   "Notes": "Major cardiology meeting."
+},
+ {
+   "ID": 5,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Cardiology",
+   "Meeting": "AHA Scientific Sessions",
+   "Acronym": "AHA",
+   "Organizer": {
+      "Society": "American Heart Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Scientific Sessions abstracts published as a journal supplement/abstract archive; not proceedings.",
+   "EvidenceURL": "https://professional.heart.org/en/meetings/scientific-sessions",
+   "OfficialURL": "https://professional.heart.org/en/meetings/scientific-sessions",
+   "Confidence": "High",
+   "Notes": "Flagship AHA meeting."
+},
+ {
+   "ID": 4,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Cardiology",
+   "Meeting": "ESC Congress",
+   "Acronym": "ESC",
+   "Organizer": {
+      "Society": "European Society of Cardiology"
+   },
+   "Region": "Global / Europe",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Congress abstracts released as journal abstract supplement / abstract book; not proceedings.",
+   "EvidenceURL": "https://www.escardio.org/Congresses-Events/ESC-Congress",
+   "OfficialURL": "https://www.escardio.org/Congresses-Events/ESC-Congress",
+   "Confidence": "High",
+   "Notes": "Major cardiovascular congress."
+},
+ {
+   "ID": 97,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Cardiology",
+   "Meeting": "EuroPCR",
+   "Acronym": "PCR",
+   "Organizer": {
+      "Society": "EuroPCR / Europa Group"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-based interventional cardiology congress; not proceedings.",
+   "EvidenceURL": "https://www.pcronline.com/Courses/EuroPCR",
+   "OfficialURL": "https://www.pcronline.com/Courses/EuroPCR",
+   "Confidence": "Medium",
+   "Notes": "Major interventional cardiology meeting."
+},
+ {
+   "ID": 90,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Cardiology",
+   "Meeting": "Heart Rhythm Society Annual Scientific Sessions",
+   "Acronym": "HRS",
+   "Organizer": {
+      "Society": "Heart Rhythm Society"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Abstract-based; not proceedings.",
+   "EvidenceURL": "https://www.hrsonline.org/events-training/heart-rhythm",
+   "OfficialURL": "https://www.hrsonline.org/events-training/heart-rhythm",
+   "Confidence": "Medium",
+   "Notes": "Major electrophysiology meeting."
+},
+ {
+   "ID": 94,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Dermatology",
+   "Meeting": "AAD Annual Meeting",
+   "Acronym": "AAD",
+   "Organizer": {
+      "Society": "American Academy of Dermatology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.aad.org/member/meetings",
+   "OfficialURL": "https://www.aad.org/member/meetings",
+   "Confidence": "Medium",
+   "Notes": "Major dermatology meeting."
+},
+ {
+   "ID": 8,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Diabetes",
+   "Meeting": "ADA Scientific Sessions",
+   "Acronym": "ADA",
+   "Organizer": {
+      "Society": "American Diabetes Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Abstracts published in a Diabetes journal supplement/abstract collection; not proceedings.",
+   "EvidenceURL": "https://diabetesjournals.org/diabetes",
+   "OfficialURL": "https://professional.diabetes.org/scientific-sessions",
+   "Confidence": "High",
+   "Notes": "Flagship diabetes meeting."
+},
+ {
+   "ID": 24,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Emergency Medicine",
+   "Meeting": "ACEP Scientific Assembly",
+   "Acronym": "ACEP",
+   "Organizer": {
+      "Society": "American College of Emergency Physicians"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract book",
+   "EvidenceSummary": "Abstract and program-driven; not proceedings.",
+   "EvidenceURL": "https://www.acep.org/sa",
+   "OfficialURL": "https://www.acep.org/sa",
+   "Confidence": "Medium",
+   "Notes": "Large emergency medicine meeting."
+},
+ {
+   "ID": 10,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Gastroenterology",
+   "Meeting": "Digestive Disease Week",
+   "Acronym": "DDW",
+   "Organizer": {
+      "Society": "AGA/ASGE/AASLD/SSAT"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Abstracts published in journal supplement/abstract archive; not proceedings.",
+   "EvidenceURL": "https://ddw.org/",
+   "OfficialURL": "https://ddw.org/",
+   "Confidence": "High",
+   "Notes": "Flagship gastroenterology meeting."
+},
+ {
+   "ID": 95,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Gastroenterology",
+   "Meeting": "UEGW (United European Gastroenterology Week)",
+   "Acronym": "UEGW",
+   "Organizer": {
+      "Society": "United European Gastroenterology"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Abstract-based congress; not proceedings.",
+   "EvidenceURL": "https://ueg.eu/week",
+   "OfficialURL": "https://ueg.eu/week",
+   "Confidence": "Medium",
+   "Notes": "Major European GI meeting."
+},
+ {
+   "ID": 27,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "General Medicine",
+   "Meeting": "World Health Summit",
+   "Acronym": "WHS",
+   "Organizer": {
+      "Society": "M8 Alliance / Charité"
+   },
+   "Region": "Global / Europe",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "High-profile research/policy summit; program archive; not proceedings.",
+   "EvidenceURL": "https://www.worldhealthsummit.org/",
+   "OfficialURL": "https://www.worldhealthsummit.org/",
+   "Confidence": "Medium",
+   "Notes": "Global health flagship meeting."
+},
+ {
+   "ID": 7,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Hematology",
+   "Meeting": "ASH Annual Meeting & Exposition",
+   "Acronym": "ASH",
+   "Organizer": {
+      "Society": "American Society of Hematology"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Meeting abstracts published as Blood (supplement) / abstract archive; not proceedings.",
+   "EvidenceURL": "https://ashpublications.org/blood",
+   "OfficialURL": "https://www.hematology.org/meetings/annual-meeting",
+   "Confidence": "High",
+   "Notes": "Flagship hematology meeting."
+},
+ {
+   "ID": 18,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Hepatology",
+   "Meeting": "AASLD The Liver Meeting",
+   "Acronym": "AASLD",
+   "Organizer": {
+      "Society": "American Association for the Study of Liver Diseases"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Abstract-based; abstracts published/archived; not proceedings.",
+   "EvidenceURL": "https://www.aasld.org/events-professional-development/liver-meeting",
+   "OfficialURL": "https://www.aasld.org/events-professional-development/liver-meeting",
+   "Confidence": "Medium",
+   "Notes": "Major hepatology meeting."
+},
+ {
+   "ID": 17,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Hepatology",
+   "Meeting": "EASL Congress (International Liver Congress)",
+   "Acronym": "EASL",
+   "Organizer": {
+      "Society": "European Association for the Study of the Liver"
+   },
+   "Region": "Global / Europe",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Meeting abstracts published as supplement/abstract book; not proceedings.",
+   "EvidenceURL": "https://easl.eu/event/",
+   "OfficialURL": "https://easl.eu/event/",
+   "Confidence": "Medium",
+   "Notes": "Major hepatology congress."
+},
+ {
+   "ID": 9,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Infectious Diseases",
+   "Meeting": "IDWeek",
+   "Acronym": "IDWeek",
+   "Organizer": {
+      "Society": "Joint meeting (IDSA/HIVMA/SHEA/PIDS)"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract supplement / archive",
+   "EvidenceSummary": "Abstract-based program; abstracts compiled online / supplement; no proceedings volume.",
+   "EvidenceURL": "https://idweek.org/",
+   "OfficialURL": "https://idweek.org/",
+   "Confidence": "Medium",
+   "Notes": "Major infectious diseases meeting."
+},
+ {
+   "ID": 26,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Infectious Diseases",
+   "Meeting": "International AIDS Conference",
+   "Acronym": "AIDS",
+   "Organizer": {
+      "Society": "International AIDS Society / partners"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Abstract book / journal supplement",
+   "EvidenceSummary": "Abstract-based; abstracts published/archived; not proceedings.",
+   "EvidenceURL": "https://www.aids2026.org/",
+   "OfficialURL": "https://www.aids2026.org/",
+   "Confidence": "Medium",
+   "Notes": "Major HIV/AIDS conference; rotates globally."
+},
+ {
+   "ID": 98,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Intensive Care",
+   "Meeting": "ESICM LIVES",
+   "Acronym": "ESICM",
+   "Organizer": {
+      "Society": "European Society of Intensive Care Medicine"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Abstract-based; not proceedings.",
+   "EvidenceURL": "https://www.esicm.org/events/lives/",
+   "OfficialURL": "https://www.esicm.org/events/lives/",
+   "Confidence": "Medium",
+   "Notes": "Major ICU meeting."
+},
+ {
+   "ID": 11,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Nephrology",
+   "Meeting": "ASN Kidney Week",
+   "Acronym": "Kidney Week",
+   "Organizer": {
+      "Society": "American Society of Nephrology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract book / journal supplement",
+   "EvidenceSummary": "Abstract-based meeting; abstracts compiled as supplement/online archive; not proceedings.",
+   "EvidenceURL": "https://www.asn-online.org/education/kidneyweek/",
+   "OfficialURL": "https://www.asn-online.org/education/kidneyweek/",
+   "Confidence": "Medium",
+   "Notes": "Flagship nephrology meeting."
+},
+ {
+   "ID": 12,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Neurology",
+   "Meeting": "AAN Annual Meeting",
+   "Acronym": "AAN",
+   "Organizer": {
+      "Society": "American Academy of Neurology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract supplement / archive",
+   "EvidenceSummary": "Abstract-based scientific meeting; abstracts published/archived; not proceedings.",
+   "EvidenceURL": "https://www.aan.com/conferences-home",
+   "OfficialURL": "https://www.aan.com/conferences/annual-meeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship neurology meeting."
+},
+ {
+   "ID": 96,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Neurology",
+   "Meeting": "EAN Congress",
+   "Acronym": "EAN",
+   "Organizer": {
+      "Society": "European Academy of Neurology"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Abstract-based congress; not proceedings.",
+   "EvidenceURL": "https://www.ean.org/congress",
+   "OfficialURL": "https://www.ean.org/congress",
+   "Confidence": "Medium",
+   "Notes": "Major European neurology congress."
+},
+ {
+   "ID": 92,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Ob/Gyn",
+   "Meeting": "ACOG Annual Clinical \\& Scientific Meeting",
+   "Acronym": "ACOG",
+   "Organizer": {
+      "Society": "American College of Obstetricians and Gynecologists"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.acog.org/education-and-events/meetings-and-courses/annual-clinical-and-scientific-meeting",
+   "OfficialURL": "https://www.acog.org/education-and-events/meetings-and-courses/annual-clinical-and-scientific-meeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship OB/GYN meeting."
+},
+ {
+   "ID": 1,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Oncology",
+   "Meeting": "ASCO Annual Meeting",
+   "Acronym": "ASCO",
+   "Organizer": {
+      "Society": "American Society of Clinical Oncology"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Meeting abstracts published as journal supplement / abstract book; not archival full-paper proceedings.",
+   "EvidenceURL": "https://ascopubs.org/journal/jco",
+   "OfficialURL": "https://www.asco.org/annual-meeting",
+   "Confidence": "High",
+   "Notes": "Flagship oncology meeting; major clinical trial debuts."
+},
+ {
+   "ID": 89,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Oncology",
+   "Meeting": "American Society for Radiation Oncology Annual Meeting",
+   "Acronym": "ASTRO",
+   "Organizer": {
+      "Society": "ASTRO"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract book",
+   "EvidenceSummary": "Abstract-based program; not proceedings.",
+   "EvidenceURL": "https://www.astro.org/Meetings-and-Education/Micro-Sites/Annual-Meeting",
+   "OfficialURL": "https://www.astro.org/Meetings-and-Education/Micro-Sites/Annual-Meeting",
+   "Confidence": "Medium",
+   "Notes": "Major radiation oncology meeting."
+},
+ {
+   "ID": 2,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Oncology",
+   "Meeting": "ESMO Congress",
+   "Acronym": "ESMO",
+   "Organizer": {
+      "Society": "European Society for Medical Oncology"
+   },
+   "Region": "Global / Europe",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Congress abstracts published in an abstract book / journal supplement; not full-paper proceedings.",
+   "EvidenceURL": "https://www.esmo.org/meetings/esmo-congress",
+   "OfficialURL": "https://www.esmo.org/meetings/esmo-congress",
+   "Confidence": "High",
+   "Notes": "Flagship European oncology congress."
+},
+ {
+   "ID": 13,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Ophthalmology",
+   "Meeting": "ARVO Annual Meeting",
+   "Acronym": "ARVO",
+   "Organizer": {
+      "Society": "Association for Research in Vision and Ophthalmology"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract collection",
+   "EvidenceSummary": "Abstracts published/archived (often via society/journal); not proceedings.",
+   "EvidenceURL": "https://www.arvo.org/annual-meeting/",
+   "OfficialURL": "https://www.arvo.org/annual-meeting/",
+   "Confidence": "High",
+   "Notes": "Flagship vision science meeting."
+},
+ {
+   "ID": 93,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Orthopedics",
+   "Meeting": "AAOS Annual Meeting",
+   "Acronym": "AAOS",
+   "Organizer": {
+      "Society": "American Academy of Orthopaedic Surgeons"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.aaos.org/annualmeeting/",
+   "OfficialURL": "https://www.aaos.org/annualmeeting/",
+   "Confidence": "Medium",
+   "Notes": "Major orthopedics meeting."
+},
+ {
+   "ID": 25,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Pediatrics",
+   "Meeting": "Pediatric Academic Societies Meeting",
+   "Acronym": "PAS",
+   "Organizer": {
+      "Society": "Pediatric Academic Societies"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract book / supplement",
+   "EvidenceSummary": "Abstract-based meeting; abstracts published/archived; not proceedings.",
+   "EvidenceURL": "https://www.pas-meeting.org/",
+   "OfficialURL": "https://www.pas-meeting.org/",
+   "Confidence": "Medium",
+   "Notes": "Major pediatrics research meeting."
+},
+ {
+   "ID": 21,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Psychiatry",
+   "Meeting": "American Psychiatric Association Annual Meeting",
+   "Acronym": "APA (Psych)",
+   "Organizer": {
+      "Society": "American Psychiatric Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program-driven meeting; abstracts/presentations archived; not proceedings.",
+   "EvidenceURL": "https://www.psychiatry.org/psychiatrists/meetings",
+   "OfficialURL": "https://www.psychiatry.org/psychiatrists/meetings/annual-meeting",
+   "Confidence": "Medium",
+   "Notes": "Major psychiatry meeting."
+},
+ {
+   "ID": 20,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Public Health",
+   "Meeting": "APHA Annual Meeting & Expo",
+   "Acronym": "APHA",
+   "Organizer": {
+      "Society": "American Public Health Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract book",
+   "EvidenceSummary": "Conference program/abstracts; not full-paper proceedings.",
+   "EvidenceURL": "https://www.apha.org/events-and-meetings/annual",
+   "OfficialURL": "https://www.apha.org/events-and-meetings/annual",
+   "Confidence": "Medium",
+   "Notes": "Large public health meeting."
+},
+ {
+   "ID": 16,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Pulmonology/Critical Care",
+   "Meeting": "ATS International Conference",
+   "Acronym": "ATS",
+   "Organizer": {
+      "Society": "American Thoracic Society"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract book / supplement",
+   "EvidenceSummary": "Abstract-driven meeting; abstracts published as supplement/online archive; not proceedings.",
+   "EvidenceURL": "https://www.thoracic.org/",
+   "OfficialURL": "https://conference.thoracic.org/",
+   "Confidence": "Medium",
+   "Notes": "Major lung/critical care meeting."
+},
+ {
+   "ID": 14,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Radiology",
+   "Meeting": "RSNA Annual Meeting",
+   "Acronym": "RSNA",
+   "Organizer": {
+      "Society": "Radiological Society of North America"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Abstract-based meeting; abstracts archived by society; not proceedings volume.",
+   "EvidenceURL": "https://www.rsna.org/annual-meeting",
+   "OfficialURL": "https://www.rsna.org/annual-meeting",
+   "Confidence": "High",
+   "Notes": "Largest radiology meeting."
+},
+ {
+   "ID": 15,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Respiratory",
+   "Meeting": "ERS International Congress",
+   "Acronym": "ERS",
+   "Organizer": {
+      "Society": "European Respiratory Society"
+   },
+   "Region": "Global / Europe",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Congress abstracts published as abstract book/supplement; not proceedings.",
+   "EvidenceURL": "https://www.ersnet.org/congress-and-events/ers-congress/",
+   "OfficialURL": "https://www.ersnet.org/congress-and-events/ers-congress/",
+   "Confidence": "High",
+   "Notes": "Flagship respiratory congress."
+},
+ {
+   "ID": 91,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Rheumatology",
+   "Meeting": "ACR Convergence",
+   "Acronym": "ACR",
+   "Organizer": {
+      "Society": "American College of Rheumatology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Abstract-based; not proceedings.",
+   "EvidenceURL": "https://rheumatology.org/annual-meeting",
+   "OfficialURL": "https://rheumatology.org/annual-meeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship rheumatology meeting."
+},
+ {
+   "ID": 22,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Surgery",
+   "Meeting": "ACS Clinical Congress",
+   "Acronym": "ACS",
+   "Organizer": {
+      "Society": "American College of Surgeons"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract book",
+   "EvidenceSummary": "Program + abstracts; not archival proceedings.",
+   "EvidenceURL": "https://www.facs.org/for-medical-professionals/conferences-and-meetings/clinical-congress/",
+   "OfficialURL": "https://www.facs.org/for-medical-professionals/conferences-and-meetings/clinical-congress/",
+   "Confidence": "Medium",
+   "Notes": "Flagship surgery meeting."
+},
+ {
+   "ID": 42,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Biophysics",
+   "Meeting": "Biophysical Society Annual Meeting",
+   "Acronym": "BPS",
+   "Organizer": {
+      "Society": "Biophysical Society"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract book",
+   "EvidenceSummary": "Abstract-based meeting; not proceedings.",
+   "EvidenceURL": "https://www.biophysics.org/Meetings-Events/Annual-Meeting",
+   "OfficialURL": "https://www.biophysics.org/Meetings-Events/Annual-Meeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship biophysics meeting."
+},
+ {
+   "ID": 104,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Biotechnology",
+   "Meeting": "BIO International Convention",
+   "Acronym": "BIO",
+   "Organizer": {
+      "Society": "Biotechnology Innovation Organization"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Industry-academia convention; not proceedings.",
+   "EvidenceURL": "https://convention.bio.org/",
+   "OfficialURL": "https://convention.bio.org/",
+   "Confidence": "Medium",
+   "Notes": "Large biotech meeting (more industry)."
+},
+ {
+   "ID": 31,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Cell Biology",
+   "Meeting": "ASCB Annual Meeting",
+   "Acronym": "ASCB",
+   "Organizer": {
+      "Society": "American Society for Cell Biology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Abstract-based meeting; abstracts archived; not proceedings volume.",
+   "EvidenceURL": "https://www.ascb.org/cellbio/",
+   "OfficialURL": "https://www.ascb.org/cellbio/",
+   "Confidence": "High",
+   "Notes": "Flagship cell biology meeting."
+},
+ {
+   "ID": 40,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Comparative Biology",
+   "Meeting": "Society for Integrative and Comparative Biology Annual Meeting",
+   "Acronym": "SICB",
+   "Organizer": {
+      "Society": "SICB"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract book",
+   "EvidenceSummary": "Abstract-based annual meeting; not proceedings.",
+   "EvidenceURL": "https://sicb.org/meetings/",
+   "OfficialURL": "https://sicb.org/meetings/",
+   "Confidence": "Medium",
+   "Notes": "Major integrative biology meeting."
+},
+ {
+   "ID": 37,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Conservation Biology",
+   "Meeting": "International Congress for Conservation Biology",
+   "Acronym": "ICCB",
+   "Organizer": {
+      "Society": "Society for Conservation Biology"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/abstract book",
+   "EvidenceSummary": "Abstract-based congress; not proceedings volume.",
+   "EvidenceURL": "https://conbio.org/mini-sites/iccb-2025",
+   "OfficialURL": "https://conbio.org/",
+   "Confidence": "Medium",
+   "Notes": "Major conservation congress."
+},
+ {
+   "ID": 28,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Cross-cutting (multiple)",
+   "Meeting": "Gordon Research Conferences",
+   "Acronym": "GRC",
+   "Organizer": {
+      "Society": "Gordon Research Conferences"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "No-publication policy",
+   "EvidenceSummary": "GRC emphasizes off-the-record discussion; generally discourages publications emanating from the meeting (no proceedings).",
+   "EvidenceURL": "https://www.grc.org/",
+   "OfficialURL": "https://www.grc.org/",
+   "Confidence": "High",
+   "Notes": "Prestigious small-format frontier meetings."
+},
+ {
+   "ID": 29,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Cross-cutting (multiple)",
+   "Meeting": "Keystone Symposia (Life Sciences)",
+   "Acronym": "Keystone",
+   "Organizer": {
+      "Society": "Keystone Symposia"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Abstract-based symposia; abstracts distributed/archived; not proceedings volumes.",
+   "EvidenceURL": "https://www.keystonesymposia.org/",
+   "OfficialURL": "https://www.keystonesymposia.org/",
+   "Confidence": "High",
+   "Notes": "High-profile biomedical conference series."
+},
+ {
+   "ID": 38,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Developmental Biology",
+   "Meeting": "Society for Developmental Biology Annual Meeting",
+   "Acronym": "SDB",
+   "Organizer": {
+      "Society": "Society for Developmental Biology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract book",
+   "EvidenceSummary": "Abstract-based meeting; not proceedings.",
+   "EvidenceURL": "https://www.sdbonline.org/meetings",
+   "OfficialURL": "https://www.sdbonline.org/meetings",
+   "Confidence": "Medium",
+   "Notes": "Key developmental biology meeting."
+},
+ {
+   "ID": 35,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Ecology",
+   "Meeting": "Ecological Society of America Annual Meeting",
+   "Acronym": "ESA",
+   "Organizer": {
+      "Society": "Ecological Society of America"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Abstract-based meeting; no archival proceedings volume.",
+   "EvidenceURL": "https://www.esa.org/meetings/",
+   "OfficialURL": "https://www.esa.org/meetings/",
+   "Confidence": "Medium",
+   "Notes": "Flagship ecology meeting."
+},
+ {
+   "ID": 36,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Evolution",
+   "Meeting": "Evolution (annual meeting)",
+   "Acronym": "Evolution",
+   "Organizer": {
+      "Society": "SSE/SSB/ASN"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract book",
+   "EvidenceSummary": "Abstract-based annual meeting; no proceedings volume.",
+   "EvidenceURL": "https://www.evolutionmeetings.org/",
+   "OfficialURL": "https://www.evolutionmeetings.org/",
+   "Confidence": "Medium",
+   "Notes": "Flagship evolution meeting."
+},
+ {
+   "ID": 102,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Evolution (Europe)",
+   "Meeting": "ESEB Congress",
+   "Acronym": "ESEB",
+   "Organizer": {
+      "Society": "European Society for Evolutionary Biology"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.eseb.org/congresses.html",
+   "OfficialURL": "https://www.eseb.org/",
+   "Confidence": "Medium",
+   "Notes": "Major European evolution congress."
+},
+ {
+   "ID": 103,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Genetics (Society)",
+   "Meeting": "Genetics Society of America Meetings",
+   "Acronym": "GSA",
+   "Organizer": {
+      "Society": "Genetics Society of America"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://genetics-gsa.org/meetings/",
+   "OfficialURL": "https://genetics-gsa.org/meetings/",
+   "Confidence": "Medium",
+   "Notes": "Major genetics society meetings."
+},
+ {
+   "ID": 43,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Genomics",
+   "Meeting": "Advances in Genome Biology and Technology",
+   "Acronym": "AGBT",
+   "Organizer": {
+      "Society": "AGBT"
+   },
+   "Region": "North America / Global",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "High-profile genomics meeting; program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.agbt.org/",
+   "OfficialURL": "https://www.agbt.org/",
+   "Confidence": "Medium",
+   "Notes": "Influential genomics technology meeting."
+},
+ {
+   "ID": 32,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Human Genetics",
+   "Meeting": "ASHG Annual Meeting",
+   "Acronym": "ASHG",
+   "Organizer": {
+      "Society": "American Society of Human Genetics"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Abstract-based meeting; abstracts published/archived; not proceedings volume.",
+   "EvidenceURL": "https://www.ashg.org/meetings/",
+   "OfficialURL": "https://www.ashg.org/meetings/",
+   "Confidence": "High",
+   "Notes": "Top human genetics meeting."
+},
+ {
+   "ID": 101,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Immunology",
+   "Meeting": "AAI Annual Meeting (IMMUNOLOGY)",
+   "Acronym": "AAI",
+   "Organizer": {
+      "Society": "American Association of Immunologists"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Abstract-based; not proceedings.",
+   "EvidenceURL": "https://www.aai.org/Meetings",
+   "OfficialURL": "https://www.aai.org/Meetings",
+   "Confidence": "Medium",
+   "Notes": "Major immunology meeting."
+},
+ {
+   "ID": 33,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Microbiology",
+   "Meeting": "ASM Microbe",
+   "Acronym": "ASM",
+   "Organizer": {
+      "Society": "American Society for Microbiology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract book",
+   "EvidenceSummary": "Large abstract-based meeting; no standard proceedings.",
+   "EvidenceURL": "https://asm.org/events/asm-microbe",
+   "OfficialURL": "https://asm.org/events/asm-microbe",
+   "Confidence": "Medium",
+   "Notes": "Major microbiology meeting."
+},
+ {
+   "ID": 99,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Molecular Biology",
+   "Meeting": "ASBMB Annual Meeting (Discover BMB)",
+   "Acronym": "ASBMB",
+   "Organizer": {
+      "Society": "American Society for Biochemistry and Molecular Biology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.asbmb.org/events/meetings",
+   "OfficialURL": "https://www.asbmb.org/events/meetings",
+   "Confidence": "Medium",
+   "Notes": "Major molecular biology meeting."
+},
+ {
+   "ID": 30,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Neuroscience",
+   "Meeting": "Society for Neuroscience Annual Meeting",
+   "Acronym": "SfN",
+   "Organizer": {
+      "Society": "Society for Neuroscience"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract book / meeting planner",
+   "EvidenceSummary": "Abstract-based meeting with abstract archive; not proceedings volume.",
+   "EvidenceURL": "https://www.sfn.org/meetings/neuroscience",
+   "OfficialURL": "https://www.sfn.org/meetings/neuroscience",
+   "Confidence": "High",
+   "Notes": "Largest neuroscience meeting."
+},
+ {
+   "ID": 100,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Neuroscience (Europe)",
+   "Meeting": "FENS Forum",
+   "Acronym": "FENS",
+   "Organizer": {
+      "Society": "Federation of European Neuroscience Societies"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Abstract-based forum; not proceedings.",
+   "EvidenceURL": "https://fensforum.org/",
+   "OfficialURL": "https://fensforum.org/",
+   "Confidence": "High",
+   "Notes": "Flagship European neuroscience meeting."
+},
+ {
+   "ID": 39,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Physiology",
+   "Meeting": "Experimental Biology",
+   "Acronym": "EB",
+   "Organizer": {
+      "Society": "ASBMB/ASPET/APS et al."
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-driven multi-society meeting; not proceedings volume.",
+   "EvidenceURL": "https://experimentalbiology.org/",
+   "OfficialURL": "https://experimentalbiology.org/",
+   "Confidence": "Medium",
+   "Notes": "Large life sciences meeting."
+},
+ {
+   "ID": 41,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Plant Sciences",
+   "Meeting": "ASPB Plant Biology",
+   "Acronym": "Plant Biology",
+   "Organizer": {
+      "Society": "American Society of Plant Biologists"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract book",
+   "EvidenceSummary": "Abstract-based meeting; not proceedings.",
+   "EvidenceURL": "https://aspb.org/meetings-events/plant-biology/",
+   "OfficialURL": "https://aspb.org/meetings-events/plant-biology/",
+   "Confidence": "Medium",
+   "Notes": "Major plant biology meeting."
+},
+ {
+   "ID": 34,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Stem Cells",
+   "Meeting": "ISSCR Annual Meeting",
+   "Acronym": "ISSCR",
+   "Organizer": {
+      "Society": "International Society for Stem Cell Research"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Abstract-based annual meeting; not proceedings volume.",
+   "EvidenceURL": "https://www.isscr.org/meetings-events",
+   "OfficialURL": "https://www.isscr.org/meetings-events",
+   "Confidence": "High",
+   "Notes": "Top stem cell meeting."
+},
+ {
+   "ID": 70,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Accounting",
+   "Meeting": "American Accounting Association Annual Meeting",
+   "Acronym": "AAA",
+   "Organizer": {
+      "Society": "American Accounting Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/paper sessions",
+   "EvidenceSummary": "Paper sessions/program; not proceedings volume.",
+   "EvidenceURL": "https://aaahq.org/Meetings/Annual-Meeting",
+   "OfficialURL": "https://aaahq.org/Meetings/Annual-Meeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship accounting meeting."
+},
+ {
+   "ID": 62,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Econometrics (General)",
+   "Meeting": "Econometric Society World Congress",
+   "Acronym": "ESWC",
+   "Organizer": {
+      "Society": "The Econometric Society"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program + paper repository",
+   "EvidenceSummary": "Program and papers; not proceedings volume.",
+   "EvidenceURL": "https://www.econometricsociety.org/conferences",
+   "OfficialURL": "https://www.econometricsociety.org/conferences",
+   "Confidence": "High",
+   "Notes": "Flagship econometrics meeting."
+},
+ {
+   "ID": 65,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economic Dynamics",
+   "Meeting": "Society for Economic Dynamics Annual Meeting",
+   "Acronym": "SED",
+   "Organizer": {
+      "Society": "Society for Economic Dynamics"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program + papers",
+   "EvidenceSummary": "Paper-presenting meeting; no proceedings.",
+   "EvidenceURL": "https://sedmeeting.org/",
+   "OfficialURL": "https://sedmeeting.org/",
+   "Confidence": "Medium",
+   "Notes": "Top macro/SED venue."
+},
+ {
+   "ID": 66,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economic Theory",
+   "Meeting": "SAET Conference",
+   "Acronym": "SAET",
+   "Organizer": {
+      "Society": "Society for the Advancement of Economic Theory"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program + papers",
+   "EvidenceSummary": "Program/papers; no proceedings.",
+   "EvidenceURL": "https://www.saet.uiowa.edu/meetings",
+   "OfficialURL": "https://www.saet.uiowa.edu/meetings",
+   "Confidence": "Medium",
+   "Notes": "Top theory meeting."
+},
+ {
+   "ID": 105,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economics (Europe)",
+   "Meeting": "Econometric Society European Meeting (ESEM)",
+   "Acronym": "ESEM",
+   "Organizer": {
+      "Society": "The Econometric Society"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program + papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.econometricsociety.org/conferences",
+   "OfficialURL": "https://www.econometricsociety.org/conferences",
+   "Confidence": "High",
+   "Notes": "Major econometrics meeting."
+},
+ {
+   "ID": 63,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economics (Europe)",
+   "Meeting": "European Economic Association Congress",
+   "Acronym": "EEA",
+   "Organizer": {
+      "Society": "European Economic Association"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program + papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.eeassoc.org/congress",
+   "OfficialURL": "https://www.eeassoc.org/congress",
+   "Confidence": "High",
+   "Notes": "Flagship European economics congress."
+},
+ {
+   "ID": 60,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economics (General)",
+   "Meeting": "AEA Annual Meeting (ASSA)",
+   "Acronym": "AEA/ASSA",
+   "Organizer": {
+      "Society": "American Economic Association (ASSA)"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Program + papers repository",
+   "EvidenceSummary": "Conference program with paper links/archives; not proceedings volume.",
+   "EvidenceURL": "https://www.aeaweb.org/conference/",
+   "OfficialURL": "https://www.aeaweb.org/conference/",
+   "Confidence": "High",
+   "Notes": "Flagship economics meeting."
+},
+ {
+   "ID": 61,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economics (Macro/Applied)",
+   "Meeting": "NBER Summer Institute",
+   "Acronym": "NBER SI",
+   "Organizer": {
+      "Society": "National Bureau of Economic Research"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Working paper series / program",
+   "EvidenceSummary": "Research presented as working papers; not proceedings.",
+   "EvidenceURL": "https://www.nber.org/conferences/summer-institute",
+   "OfficialURL": "https://www.nber.org/conferences/summer-institute",
+   "Confidence": "High",
+   "Notes": "Elite economics workshop series."
+},
+ {
+   "ID": 106,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economics (North America)",
+   "Meeting": "Econometric Society North American Summer Meeting (NASM)",
+   "Acronym": "NASM",
+   "Organizer": {
+      "Society": "The Econometric Society"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program + papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.econometricsociety.org/conferences",
+   "OfficialURL": "https://www.econometricsociety.org/conferences",
+   "Confidence": "High",
+   "Notes": "Major econometrics meeting."
+},
+ {
+   "ID": 64,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Economics (UK)",
+   "Meeting": "Royal Economic Society Annual Conference",
+   "Acronym": "RES",
+   "Organizer": {
+      "Society": "Royal Economic Society"
+   },
+   "Region": "Europe (UK)",
+   "NonProceedingsRecordType": "Program + papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://res.org.uk/events/annual-conference/",
+   "OfficialURL": "https://res.org.uk/events/annual-conference/",
+   "Confidence": "Medium",
+   "Notes": "Major UK economics conference."
+},
+ {
+   "ID": 109,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Entrepreneurship",
+   "Meeting": "Babson College Entrepreneurship Research Conference",
+   "Acronym": "BCERC",
+   "Organizer": {
+      "Society": "Babson College / Entrepreneurship Division"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.babson.edu/entrepreneurship-center/babson-college-entrepreneurship-research-conference/",
+   "OfficialURL": "https://www.babson.edu/entrepreneurship-center/babson-college-entrepreneurship-research-conference/",
+   "Confidence": "Medium",
+   "Notes": "Major entrepreneurship research meeting."
+},
+ {
+   "ID": 69,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Finance (Europe)",
+   "Meeting": "European Finance Association Annual Meeting",
+   "Acronym": "EFA",
+   "Organizer": {
+      "Society": "European Finance Association"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program + papers",
+   "EvidenceSummary": "Program/papers; not proceedings volume.",
+   "EvidenceURL": "https://www.efa-online.org/annual-meetings",
+   "OfficialURL": "https://www.efa-online.org/annual-meetings",
+   "Confidence": "High",
+   "Notes": "Top European finance meeting."
+},
+ {
+   "ID": 67,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Finance (General)",
+   "Meeting": "American Finance Association Annual Meeting",
+   "Acronym": "AFA",
+   "Organizer": {
+      "Society": "American Finance Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Program + paper archive",
+   "EvidenceSummary": "Program and papers archive; not proceedings volume.",
+   "EvidenceURL": "https://afajof.org/meetings/",
+   "OfficialURL": "https://afajof.org/meetings/",
+   "Confidence": "High",
+   "Notes": "Flagship finance meeting."
+},
+ {
+   "ID": 68,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Finance (General)",
+   "Meeting": "Western Finance Association Annual Meeting",
+   "Acronym": "WFA",
+   "Organizer": {
+      "Society": "Western Finance Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Program + paper archive",
+   "EvidenceSummary": "Program and papers; not proceedings volume.",
+   "EvidenceURL": "https://www.westernfinance.org/annual-meeting/",
+   "OfficialURL": "https://www.westernfinance.org/annual-meeting/",
+   "Confidence": "High",
+   "Notes": "Top finance meeting."
+},
+ {
+   "ID": 76,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Finance/Management",
+   "Meeting": "Financial Management Association Annual Meeting",
+   "Acronym": "FMA",
+   "Organizer": {
+      "Society": "Financial Management Association"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/paper sessions",
+   "EvidenceSummary": "Program/papers; not proceedings volume.",
+   "EvidenceURL": "https://www.fma.org/meetings",
+   "OfficialURL": "https://www.fma.org/meetings",
+   "Confidence": "Medium",
+   "Notes": "Large finance meeting."
+},
+ {
+   "ID": 75,
+   "Category": "Business & Economics",
+   "Subdiscipline": "International Business",
+   "Meeting": "Academy of International Business Annual Meeting",
+   "Acronym": "AIB",
+   "Organizer": {
+      "Society": "Academy of International Business"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/paper sessions",
+   "EvidenceSummary": "Program/papers; not proceedings volume.",
+   "EvidenceURL": "https://aib.world/events/annual-meeting/",
+   "OfficialURL": "https://aib.world/events/annual-meeting/",
+   "Confidence": "Medium",
+   "Notes": "Top international business meeting."
+},
+ {
+   "ID": 110,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Management",
+   "Meeting": "Academy of International Business (Asia-Pacific) Meeting",
+   "Acronym": "AIB-AP",
+   "Organizer": {
+      "Society": "AIB"
+   },
+   "Region": "Asia-Pacific",
+   "NonProceedingsRecordType": "Program/papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://aib.world/events/",
+   "OfficialURL": "https://aib.world/events/",
+   "Confidence": "Medium",
+   "Notes": "Regional AIB meeting."
+},
+ {
+   "ID": 71,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Management (General)",
+   "Meeting": "Academy of Management Annual Meeting",
+   "Acronym": "AOM",
+   "Organizer": {
+      "Society": "Academy of Management"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program + paper sessions",
+   "EvidenceSummary": "Competitive submissions; program/papers; not proceedings volume.",
+   "EvidenceURL": "https://aom.org/events/annual-meeting",
+   "OfficialURL": "https://aom.org/events/annual-meeting",
+   "Confidence": "High",
+   "Notes": "Largest management research meeting."
+},
+ {
+   "ID": 107,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Management / IS (borderline)",
+   "Meeting": "INFORMS Conference on Information Systems and Technology",
+   "Acronym": "CIST",
+   "Organizer": {
+      "Society": "INFORMS"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/papers",
+   "EvidenceSummary": "Paper sessions; not proceedings.",
+   "EvidenceURL": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-on-Information-Systems-and-Technology",
+   "OfficialURL": "https://www.informs.org/Meetings-Conferences/INFORMS-Conference-on-Information-Systems-and-Technology",
+   "Confidence": "Medium",
+   "Notes": "INFORMS IS/tech meeting."
+},
+ {
+   "ID": 108,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Marketing",
+   "Meeting": "Marketing Science Conference",
+   "Acronym": "MktSci",
+   "Organizer": {
+      "Society": "INFORMS Marketing Science Society"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/papers",
+   "EvidenceSummary": "Program/papers; typically no proceedings volume.",
+   "EvidenceURL": "https://www.marketingscience.org/conference",
+   "OfficialURL": "https://www.marketingscience.org/conference",
+   "Confidence": "Medium",
+   "Notes": "Top quantitative marketing meeting."
+},
+ {
+   "ID": 74,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Operations Management",
+   "Meeting": "POMS Annual Conference",
+   "Acronym": "POMS",
+   "Organizer": {
+      "Society": "Production and Operations Management Society"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings volume.",
+   "EvidenceURL": "https://www.poms.org/conferences/",
+   "OfficialURL": "https://www.poms.org/conferences/",
+   "Confidence": "Medium",
+   "Notes": "Major operations management meeting."
+},
+ {
+   "ID": 73,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Operations Research/Analytics",
+   "Meeting": "INFORMS Annual Meeting",
+   "Acronym": "INFORMS",
+   "Organizer": {
+      "Society": "INFORMS"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-based sessions; not proceedings volume.",
+   "EvidenceURL": "https://www.informs.org/Meetings-Conferences/INFORMS-Annual-Meeting",
+   "OfficialURL": "https://www.informs.org/Meetings-Conferences/INFORMS-Annual-Meeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship OR/analytics meeting."
+},
+ {
+   "ID": 72,
+   "Category": "Business & Economics",
+   "Subdiscipline": "Strategy",
+   "Meeting": "Strategic Management Society Annual Conference",
+   "Acronym": "SMS",
+   "Organizer": {
+      "Society": "Strategic Management Society"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program + paper sessions",
+   "EvidenceSummary": "Competitive submissions; program/papers; not proceedings volume.",
+   "EvidenceURL": "https://www.strategicmanagement.net/conferences/",
+   "OfficialURL": "https://www.strategicmanagement.net/conferences/",
+   "Confidence": "High",
+   "Notes": "Top strategy meeting."
+},
+ {
+   "ID": 53,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Anthropology",
+   "Meeting": "American Anthropological Association Annual Meeting",
+   "Acronym": "AAA",
+   "Organizer": {
+      "Society": "American Anthropological Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/papers; not proceedings volume.",
+   "EvidenceURL": "https://annualmeeting.americananthro.org/",
+   "OfficialURL": "https://www.americananthro.org/annual-meeting",
+   "Confidence": "Medium",
+   "Notes": "Major anthropology meeting."
+},
+ {
+   "ID": 56,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Child Development",
+   "Meeting": "SRCD Biennial Meeting",
+   "Acronym": "SRCD",
+   "Organizer": {
+      "Society": "Society for Research in Child Development"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-based biennial meeting; not proceedings.",
+   "EvidenceURL": "https://www.srcd.org/events-meetings/srcd-biennial-meeting",
+   "OfficialURL": "https://www.srcd.org/events-meetings/srcd-biennial-meeting",
+   "Confidence": "Medium",
+   "Notes": "Top child development meeting."
+},
+ {
+   "ID": 54,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Communication",
+   "Meeting": "International Communication Association Annual Conference",
+   "Acronym": "ICA",
+   "Organizer": {
+      "Society": "International Communication Association"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.icahdq.org/mpage/ICA_Conference",
+   "OfficialURL": "https://www.icahdq.org/mpage/ICA_Conference",
+   "Confidence": "Medium",
+   "Notes": "Flagship communication research meeting."
+},
+ {
+   "ID": 55,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Communication",
+   "Meeting": "National Communication Association Annual Convention",
+   "Acronym": "NCA",
+   "Organizer": {
+      "Society": "National Communication Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.natcom.org/convention",
+   "OfficialURL": "https://www.natcom.org/convention",
+   "Confidence": "Medium",
+   "Notes": "Large communication meeting."
+},
+ {
+   "ID": 58,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Criminology",
+   "Meeting": "ASC Annual Meeting",
+   "Acronym": "ASC",
+   "Organizer": {
+      "Society": "American Society of Criminology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/papers; not proceedings volume.",
+   "EvidenceURL": "https://asc41.org/annualmeeting/",
+   "OfficialURL": "https://asc41.org/annualmeeting/",
+   "Confidence": "Medium",
+   "Notes": "Flagship criminology meeting."
+},
+ {
+   "ID": 52,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Demography",
+   "Meeting": "Population Association of America Annual Meeting",
+   "Acronym": "PAA",
+   "Organizer": {
+      "Society": "Population Association of America"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/paper archive",
+   "EvidenceSummary": "Program/papers; not proceedings volume.",
+   "EvidenceURL": "https://www.populationassociation.org/paa2026",
+   "OfficialURL": "https://www.populationassociation.org/annual-meeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship demography meeting."
+},
+ {
+   "ID": 112,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Economics (behavioral/experimental)",
+   "Meeting": "Economic Science Association Meeting",
+   "Acronym": "ESA",
+   "Organizer": {
+      "Society": "Economic Science Association"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.economicscience.org/meetings",
+   "OfficialURL": "https://www.economicscience.org/meetings",
+   "Confidence": "Medium",
+   "Notes": "Major experimental economics meeting."
+},
+ {
+   "ID": 111,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Economics (development)",
+   "Meeting": "NEUDC (Northeast Universities Development Consortium) Conference",
+   "Acronym": "NEUDC",
+   "Organizer": {
+      "Society": "NEUDC"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Working papers",
+   "EvidenceSummary": "Working paper style; not proceedings.",
+   "EvidenceURL": "https://neudc.org/",
+   "OfficialURL": "https://neudc.org/",
+   "Confidence": "Medium",
+   "Notes": "Top development economics meeting."
+},
+ {
+   "ID": 48,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Education Research",
+   "Meeting": "AERA Annual Meeting",
+   "Acronym": "AERA",
+   "Organizer": {
+      "Society": "American Educational Research Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Paper repository",
+   "EvidenceSummary": "Annual meeting paper repository/abstracts; not proceedings volume.",
+   "EvidenceURL": "https://www.aera.net/Events-Meetings/Annual-Meeting",
+   "OfficialURL": "https://www.aera.net/Events-Meetings/Annual-Meeting",
+   "Confidence": "High",
+   "Notes": "Flagship education research meeting."
+},
+ {
+   "ID": 116,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Geography",
+   "Meeting": "AAG Annual Meeting",
+   "Acronym": "AAG",
+   "Organizer": {
+      "Society": "American Association of Geographers"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstracts",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.aag.org/annualmeeting/",
+   "OfficialURL": "https://www.aag.org/annualmeeting/",
+   "Confidence": "Medium",
+   "Notes": "Major geography meeting."
+},
+ {
+   "ID": 57,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Gerontology",
+   "Meeting": "GSA Annual Scientific Meeting",
+   "Acronym": "GSA",
+   "Organizer": {
+      "Society": "Gerontological Society of America"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-based scientific meeting; not proceedings.",
+   "EvidenceURL": "https://www.geron.org/meetings-events/gsa-annual-scientific-meeting",
+   "OfficialURL": "https://www.geron.org/meetings-events/gsa-annual-scientific-meeting",
+   "Confidence": "Medium",
+   "Notes": "Major aging research meeting."
+},
+ {
+   "ID": 59,
+   "Category": "Social Sciences",
+   "Subdiscipline": "I/O Psychology",
+   "Meeting": "SIOP Annual Conference",
+   "Acronym": "SIOP",
+   "Organizer": {
+      "Society": "Society for Industrial and Organizational Psychology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Program/abstracts; not proceedings.",
+   "EvidenceURL": "https://www.siop.org/Annual-Conference",
+   "OfficialURL": "https://www.siop.org/Annual-Conference",
+   "Confidence": "Medium",
+   "Notes": "Top I/O psychology meeting."
+},
+ {
+   "ID": 46,
+   "Category": "Social Sciences",
+   "Subdiscipline": "International Studies",
+   "Meeting": "International Studies Association Annual Convention",
+   "Acronym": "ISA",
+   "Organizer": {
+      "Society": "International Studies Association"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/paper archive",
+   "EvidenceSummary": "Panel/paper program with archives; not proceedings volume.",
+   "EvidenceURL": "https://www.isanet.org/Conferences",
+   "OfficialURL": "https://www.isanet.org/Conferences",
+   "Confidence": "High",
+   "Notes": "Flagship international relations meeting."
+},
+ {
+   "ID": 113,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Law \\& Society",
+   "Meeting": "Law and Society Association Annual Meeting",
+   "Acronym": "LSA",
+   "Organizer": {
+      "Society": "Law and Society Association"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/panels",
+   "EvidenceSummary": "Program; not proceedings volume.",
+   "EvidenceURL": "https://www.lawandsociety.org/annual-meeting/",
+   "OfficialURL": "https://www.lawandsociety.org/annual-meeting/",
+   "Confidence": "Medium",
+   "Notes": "Flagship law & society meeting."
+},
+ {
+   "ID": 44,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Political Science",
+   "Meeting": "American Political Science Association Annual Meeting",
+   "Acronym": "APSA",
+   "Organizer": {
+      "Society": "American Political Science Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Paper repository / program archive",
+   "EvidenceSummary": "Conference papers/panels archived via association; not full-paper proceedings volume.",
+   "EvidenceURL": "https://connect.apsanet.org/apsa2025/",
+   "OfficialURL": "https://www.apsanet.org/annualmeeting",
+   "Confidence": "High",
+   "Notes": "Flagship political science meeting."
+},
+ {
+   "ID": 45,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Political Science",
+   "Meeting": "Midwest Political Science Association Annual Conference",
+   "Acronym": "MPSA",
+   "Organizer": {
+      "Society": "Midwest Political Science Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Paper repository / program archive",
+   "EvidenceSummary": "Paper repository/program; not proceedings volume.",
+   "EvidenceURL": "https://www.mpsanet.org/conference/",
+   "OfficialURL": "https://www.mpsanet.org/conference/",
+   "Confidence": "Medium",
+   "Notes": "Major political science conference."
+},
+ {
+   "ID": 50,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Psychological Science",
+   "Meeting": "Association for Psychological Science Annual Convention",
+   "Acronym": "APS",
+   "Organizer": {
+      "Society": "Association for Psychological Science"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-based scientific program; not proceedings volume.",
+   "EvidenceURL": "https://www.psychologicalscience.org/conventions",
+   "OfficialURL": "https://www.psychologicalscience.org/conventions",
+   "Confidence": "Medium",
+   "Notes": "Top psychology research convention."
+},
+ {
+   "ID": 49,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Psychology",
+   "Meeting": "APA Convention",
+   "Acronym": "APA",
+   "Organizer": {
+      "Society": "American Psychological Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Convention program/abstracts; not proceedings volume.",
+   "EvidenceURL": "https://convention.apa.org/",
+   "OfficialURL": "https://convention.apa.org/",
+   "Confidence": "Medium",
+   "Notes": "Largest psychology professional meeting."
+},
+ {
+   "ID": 114,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Public Policy",
+   "Meeting": "APPAM Fall Research Conference",
+   "Acronym": "APPAM",
+   "Organizer": {
+      "Society": "Association for Public Policy Analysis and Management"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/papers",
+   "EvidenceSummary": "Program/papers; not proceedings.",
+   "EvidenceURL": "https://www.appam.org/events/fall-research-conference/",
+   "OfficialURL": "https://www.appam.org/events/fall-research-conference/",
+   "Confidence": "Medium",
+   "Notes": "Top policy research conference."
+},
+ {
+   "ID": 51,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Social/Personality",
+   "Meeting": "SPSP Annual Convention",
+   "Acronym": "SPSP",
+   "Organizer": {
+      "Society": "Society for Personality and Social Psychology"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/abstract archive",
+   "EvidenceSummary": "Abstract-based convention; not proceedings volume.",
+   "EvidenceURL": "https://www.spsp.org/events",
+   "OfficialURL": "https://www.spsp.org/events",
+   "Confidence": "Medium",
+   "Notes": "Major social/personality psychology meeting."
+},
+ {
+   "ID": 47,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Sociology",
+   "Meeting": "American Sociological Association Annual Meeting",
+   "Acronym": "ASA",
+   "Organizer": {
+      "Society": "American Sociological Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Paper archive",
+   "EvidenceSummary": "Paper archive for meeting presentations; not proceedings volume.",
+   "EvidenceURL": "https://www.asanet.org/annual-meeting/",
+   "OfficialURL": "https://www.asanet.org/annual-meeting/",
+   "Confidence": "High",
+   "Notes": "Flagship sociology meeting."
+},
+ {
+   "ID": 115,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Sociology (global)",
+   "Meeting": "International Sociological Association World Congress of Sociology",
+   "Acronym": "ISA-WCS",
+   "Organizer": {
+      "Society": "International Sociological Association"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/panels",
+   "EvidenceSummary": "Program; not proceedings volume.",
+   "EvidenceURL": "https://www.isa-sociology.org/en/conferences/world-congress",
+   "OfficialURL": "https://www.isa-sociology.org/en/conferences/world-congress",
+   "Confidence": "Medium",
+   "Notes": "Global sociology congress."
+},
+ {
+   "ID": 119,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "African Studies",
+   "Meeting": "African Studies Association Annual Meeting",
+   "Acronym": "ASA (African Studies)",
+   "Organizer": {
+      "Society": "African Studies Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Program/panels",
+   "EvidenceSummary": "Program; not proceedings volume.",
+   "EvidenceURL": "https://africanstudies.org/meetings/annual-meeting/",
+   "OfficialURL": "https://africanstudies.org/meetings/annual-meeting/",
+   "Confidence": "Medium",
+   "Notes": "Flagship African studies meeting."
+},
+ {
+   "ID": 120,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "American Studies",
+   "Meeting": "American Studies Association Annual Meeting",
+   "Acronym": "ASA (American Studies)",
+   "Organizer": {
+      "Society": "American Studies Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panels",
+   "EvidenceSummary": "Program; not proceedings.",
+   "EvidenceURL": "https://theasa.net/conferences",
+   "OfficialURL": "https://theasa.net/conferences",
+   "Confidence": "Medium",
+   "Notes": "Major American studies meeting."
+},
+ {
+   "ID": 87,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Archaeology",
+   "Meeting": "European Association of Archaeologists Annual Meeting",
+   "Acronym": "EAA",
+   "Organizer": {
+      "Society": "European Association of Archaeologists"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program/abstracts; no proceedings volume.",
+   "EvidenceURL": "https://www.e-a-a.org/EAA2025",
+   "OfficialURL": "https://www.e-a-a.org/",
+   "Confidence": "Medium",
+   "Notes": "Major European archaeology meeting."
+},
+ {
+   "ID": 80,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Architecture History",
+   "Meeting": "SAH Annual International Conference",
+   "Acronym": "SAH",
+   "Organizer": {
+      "Society": "Society of Architectural Historians"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program/panels; no proceedings volume.",
+   "EvidenceURL": "https://www.sah.org/conferences-and-programs/annual-conference",
+   "OfficialURL": "https://www.sah.org/conferences-and-programs/annual-conference",
+   "Confidence": "Medium",
+   "Notes": "Flagship architectural history meeting."
+},
+ {
+   "ID": 81,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Area Studies",
+   "Meeting": "Association for Asian Studies Annual Conference",
+   "Acronym": "AAS",
+   "Organizer": {
+      "Society": "Association for Asian Studies"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Panel/presentation program; no proceedings.",
+   "EvidenceURL": "https://www.asianstudies.org/conference/",
+   "OfficialURL": "https://www.asianstudies.org/conference/",
+   "Confidence": "High",
+   "Notes": "Major area studies meeting."
+},
+ {
+   "ID": 121,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Art History (Europe)",
+   "Meeting": "CIHA Congress (International Committee of the History of Art)",
+   "Acronym": "CIHA",
+   "Organizer": {
+      "Society": "CIHA"
+   },
+   "Region": "Global / Europe",
+   "NonProceedingsRecordType": "Program/panels",
+   "EvidenceSummary": "Program; not proceedings.",
+   "EvidenceURL": "https://www.cihahistoryofart.org/congresses",
+   "OfficialURL": "https://www.cihahistoryofart.org/congresses",
+   "Confidence": "Medium",
+   "Notes": "Major international art history congress."
+},
+ {
+   "ID": 79,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Art History / Art",
+   "Meeting": "College Art Association Annual Conference",
+   "Acronym": "CAA",
+   "Organizer": {
+      "Society": "College Art Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Panel/presentation program; no proceedings volume.",
+   "EvidenceURL": "https://www.collegeart.org/programs/conference",
+   "OfficialURL": "https://www.collegeart.org/programs/conference",
+   "Confidence": "High",
+   "Notes": "Flagship art history/art meeting."
+},
+ {
+   "ID": 88,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Classics",
+   "Meeting": "Society for Classical Studies Annual Meeting",
+   "Acronym": "SCS",
+   "Organizer": {
+      "Society": "Society for Classical Studies"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program; no proceedings volume.",
+   "EvidenceURL": "https://classicalstudies.org/annual-meeting",
+   "OfficialURL": "https://classicalstudies.org/annual-meeting",
+   "Confidence": "Medium",
+   "Notes": "Major classics meeting."
+},
+ {
+   "ID": 118,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Early Modern Studies",
+   "Meeting": "Sixteenth Century Society Conference",
+   "Acronym": "SCSC",
+   "Organizer": {
+      "Society": "Sixteenth Century Society and Conference"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panels",
+   "EvidenceSummary": "Program; not proceedings.",
+   "EvidenceURL": "https://www.sixteenthcentury.org/conference/",
+   "OfficialURL": "https://www.sixteenthcentury.org/conference/",
+   "Confidence": "Medium",
+   "Notes": "Major early modern meeting."
+},
+ {
+   "ID": 83,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Film/Media Studies",
+   "Meeting": "Society for Cinema and Media Studies Annual Conference",
+   "Acronym": "SCMS",
+   "Organizer": {
+      "Society": "SCMS"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program; no proceedings.",
+   "EvidenceURL": "https://www.cmstudies.org/page/Conference",
+   "OfficialURL": "https://www.cmstudies.org/page/Conference",
+   "Confidence": "Medium",
+   "Notes": "Flagship cinema/media studies meeting."
+},
+ {
+   "ID": 78,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "History",
+   "Meeting": "American Historical Association Annual Meeting",
+   "Acronym": "AHA (History)",
+   "Organizer": {
+      "Society": "American Historical Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Panel/presentation program; no proceedings.",
+   "EvidenceURL": "https://www.historians.org/annualmeeting",
+   "OfficialURL": "https://www.historians.org/annualmeeting",
+   "Confidence": "High",
+   "Notes": "Flagship history meeting."
+},
+ {
+   "ID": 86,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Linguistics",
+   "Meeting": "Linguistic Society of America Annual Meeting",
+   "Acronym": "LSA",
+   "Organizer": {
+      "Society": "Linguistic Society of America"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program/papers; no proceedings volume.",
+   "EvidenceURL": "https://www.lsadc.org/meetings/",
+   "OfficialURL": "https://www.lsadc.org/meetings/",
+   "Confidence": "Medium",
+   "Notes": "Flagship linguistics meeting."
+},
+ {
+   "ID": 77,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Literature / Languages",
+   "Meeting": "Modern Language Association Annual Convention",
+   "Acronym": "MLA",
+   "Organizer": {
+      "Society": "Modern Language Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Panel/presentation program; no proceedings volume.",
+   "EvidenceURL": "https://www.mla.org/Events/MLA-Convention",
+   "OfficialURL": "https://www.mla.org/Events/MLA-Convention",
+   "Confidence": "High",
+   "Notes": "Flagship language/literature meeting."
+},
+ {
+   "ID": 117,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Medieval Studies",
+   "Meeting": "International Congress on Medieval Studies",
+   "Acronym": "ICMS",
+   "Organizer": {
+      "Society": "Medieval Institute (WMU)"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panels",
+   "EvidenceSummary": "Program; not proceedings volume.",
+   "EvidenceURL": "https://wmich.edu/medievalcongress",
+   "OfficialURL": "https://wmich.edu/medievalcongress",
+   "Confidence": "Medium",
+   "Notes": "Major medieval studies meeting."
+},
+ {
+   "ID": 84,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Musicology",
+   "Meeting": "American Musicological Society Annual Meeting",
+   "Acronym": "AMS",
+   "Organizer": {
+      "Society": "American Musicological Society"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program; no proceedings.",
+   "EvidenceURL": "https://www.amsmusicology.org/page/annualmeeting",
+   "OfficialURL": "https://www.amsmusicology.org/page/annualmeeting",
+   "Confidence": "Medium",
+   "Notes": "Flagship musicology meeting."
+},
+ {
+   "ID": 85,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Philosophy",
+   "Meeting": "American Philosophical Association Meetings",
+   "Acronym": "APA (Phil)",
+   "Organizer": {
+      "Society": "American Philosophical Association"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program/panels; no proceedings volume.",
+   "EvidenceURL": "https://www.apaonline.org/page/meetings",
+   "OfficialURL": "https://www.apaonline.org/page/meetings",
+   "Confidence": "Medium",
+   "Notes": "Major philosophy meetings (divisional)."
+},
+ {
+   "ID": 82,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Renaissance / Early Modern",
+   "Meeting": "Renaissance Society of America Annual Meeting",
+   "Acronym": "RSA",
+   "Organizer": {
+      "Society": "Renaissance Society of America"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Program/panel archive",
+   "EvidenceSummary": "Program; no proceedings.",
+   "EvidenceURL": "https://www.rsa.org/page/AnnualMeeting",
+   "OfficialURL": "https://www.rsa.org/page/AnnualMeeting",
+   "Confidence": "Medium",
+   "Notes": "Major humanities meeting."
+},
+ {
+   "ID": 122,
+   "Category": "Physical & Mathematical Sciences",
+   "Subdiscipline": "Physics",
+   "Meeting": "APS March Meeting",
+   "Acronym": "APS March",
+   "Organizer": {
+      "Society": "American Physical Society"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstracts (Bulletin of the APS) / meeting abstracts",
+   "EvidenceSummary": "Flagship physics meeting (APS describes the Summit/March Meeting ecosystem as the largest physics research conference). Research is disseminated via meeting abstracts (Bulletin/abstract search), not a full-paper proceedings volume; full papers typically go to journals (e.g., PRL/PRB).",
+   "EvidenceURL": "https://summit.aps.org/",
+   "OfficialURL": "https://summit.aps.org/attend/abstracts/",
+   "Confidence": "High",
+   "Notes": "Includes March/April meeting abstracts and searchable abstract programs."
+},
+ {
+   "ID": 123,
+   "Category": "Physical & Mathematical Sciences",
+   "Subdiscipline": "Chemistry",
+   "Meeting": "ACS National Meetings (Spring/Fall)",
+   "Acronym": "ACS",
+   "Organizer": {
+      "Society": "American Chemical Society"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Technical program abstracts archive",
+   "EvidenceSummary": "Flagship chemistry meetings. Primary record is technical program abstracts (ACS Technical Programming Archive); no dedicated peer-reviewed full-paper proceedings volume.",
+   "EvidenceURL": "https://www.acs.org/meetings/acs-meetings/past-meetings.html",
+   "OfficialURL": "https://www.acs.org/meetings/acs-meetings.html",
+   "Confidence": "High",
+   "Notes": ""
+},
+ {
+   "ID": 124,
+   "Category": "Physical & Mathematical Sciences",
+   "Subdiscipline": "Earth Sciences",
+   "Meeting": "AGU Fall Meeting",
+   "Acronym": "AGU",
+   "Organizer": {
+      "Society": "American Geophysical Union"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Abstract-based program / online abstract database",
+   "EvidenceSummary": "Flagship earth and space science meeting. Research is presented via abstracts (submission and program/abstract database); full papers typically go to journals (e.g., JGR/GRL) rather than proceedings volumes.",
+   "EvidenceURL": "https://www.agu.org/annual-meeting/present/abstracts",
+   "OfficialURL": "https://www.agu.org/Fall-Meeting",
+   "Confidence": "High",
+   "Notes": ""
+},
+ {
+   "ID": 125,
+   "Category": "Physical & Mathematical Sciences",
+   "Subdiscipline": "Astronomy",
+   "Meeting": "AAS Meeting (Winter/Summer)",
+   "Acronym": "AAS",
+   "Organizer": {
+      "Society": "American Astronomical Society"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Meeting abstracts published in Bulletin of the AAS (BAAS)",
+   "EvidenceSummary": "Flagship astronomy meetings. The durable scholarly record is meeting abstracts published in the Bulletin of the AAS (BAAS), rather than a full-paper proceedings volume.",
+   "EvidenceURL": "https://baas.aas.org/abstracts",
+   "OfficialURL": "https://aas.org/meetings",
+   "Confidence": "High",
+   "Notes": ""
+},
+ {
+   "ID": 126,
+   "Category": "Physical & Mathematical Sciences",
+   "Subdiscipline": "Mathematics",
+   "Meeting": "Joint Mathematics Meetings",
+   "Acronym": "JMM",
+   "Organizer": {
+      "Society": "American Mathematical Society (and partners)"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Meeting abstracts (AMS Abstracts journal / JMM abstract links)",
+   "EvidenceSummary": "Flagship mathematics gathering. Main scientific program is abstract-based; AMS publishes meeting abstracts online (Abstracts of Papers Presented to the AMS), rather than a conference proceedings volume.",
+   "EvidenceURL": "https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-faq",
+   "OfficialURL": "https://jointmathematicsmeetings.org/",
+   "Confidence": "Medium",
+   "Notes": "Some sub-events may produce proceedings, but JMM contributed program is abstract-driven."
+},
+ {
+   "ID": 127,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Ophthalmology",
+   "Meeting": "AAO Annual Meeting",
+   "Acronym": "AAO",
+   "Organizer": {
+      "Society": "American Academy of Ophthalmology"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract/program archive; meeting session materials",
+   "EvidenceSummary": "Major ophthalmology meeting with competitive abstract selection and extensive session archive; disseminates via abstracts/program/syllabus materials rather than a peer-reviewed full-paper proceedings volume.",
+   "EvidenceURL": "https://www.aao.org/annual-meeting/presenter/abstract-selection-process",
+   "OfficialURL": "https://www.aao.org/annual-meeting",
+   "Confidence": "Medium",
+   "Notes": ""
+},
+ {
+   "ID": 128,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Urology",
+   "Meeting": "AUA Annual Meeting",
+   "Acronym": "AUA",
+   "Organizer": {
+      "Society": "American Urological Association"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract supplement (The Journal of Urology® supplement)",
+   "EvidenceSummary": "Major urology meeting. Abstracts accepted for the Annual Meeting are published in a supplement of The Journal of Urology®, meeting the journal-abstract-supplement criterion (no full-paper proceedings).",
+   "EvidenceURL": "https://www.auanet.org/AUA2026/abstracts/abstract-guidelines",
+   "OfficialURL": "https://www.auanet.org/AUA2025/abstracts",
+   "Confidence": "High",
+   "Notes": ""
+},
+ {
+   "ID": 129,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Endocrinology",
+   "Meeting": "Endocrine Society Annual Meeting",
+   "Acronym": "ENDO",
+   "Organizer": {
+      "Society": "Endocrine Society"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Flagship endocrinology meeting. Abstracts are disseminated via a journal supplement/abstract archive (Journal of the Endocrine Society).",
+   "EvidenceURL": "https://www.endocrine.org/meetings",
+   "OfficialURL": "https://www.endocrine.org/meetings",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 130,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Rheumatology",
+   "Meeting": "EULAR Annual European Congress of Rheumatology",
+   "Acronym": "EULAR",
+   "Organizer": {
+      "Society": "EULAR"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Top European rheumatology congress. Abstracts are published as a supplement to Annals of the Rheumatic Diseases.",
+   "EvidenceURL": "https://congress.eular.org/",
+   "OfficialURL": "https://congress.eular.org/",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 131,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Allergy & Immunology",
+   "Meeting": "AAAAI Annual Meeting",
+   "Acronym": "AAAAI",
+   "Organizer": {
+      "Society": "American Academy of Allergy, Asthma & Immunology"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Journal abstract supplement",
+   "EvidenceSummary": "Leading allergy/immunology meeting. Abstracts are typically published as a supplement/collection in The Journal of Allergy and Clinical Immunology.",
+   "EvidenceURL": "https://www.aaaai.org/education-and-training/annual-meeting",
+   "OfficialURL": "https://www.aaaai.org/education-and-training/annual-meeting",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 132,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Neurology",
+   "Meeting": "World Congress of Neurology",
+   "Acronym": "WCN",
+   "Organizer": {
+      "Society": "World Federation of Neurology"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Global flagship neurology congress (biennial). Scholarly record is primarily abstract book/archive rather than full-paper proceedings.",
+   "EvidenceURL": "https://www.wfneurology.org/wcn",
+   "OfficialURL": "https://www.wfneurology.org/wcn",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 133,
+   "Category": "Medicine & Health",
+   "Subdiscipline": "Palliative Care",
+   "Meeting": "AAHPM Annual Assembly",
+   "Acronym": "AAHPM",
+   "Organizer": {
+      "Society": "American Academy of Hospice and Palliative Medicine"
+   },
+   "Region": "North America",
+   "NonProceedingsRecordType": "Abstract archive / program",
+   "EvidenceSummary": "Leading palliative care meeting. Scientific content is disseminated via abstract/program archive, not proceedings volumes.",
+   "EvidenceURL": "https://aahpm.org/meetings/annual-assembly",
+   "OfficialURL": "https://aahpm.org/meetings/annual-assembly",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 134,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Aquatic Sciences",
+   "Meeting": "ASLO Aquatic Sciences Meeting",
+   "Acronym": "ASLO",
+   "Organizer": {
+      "Society": "Association for the Sciences of Limnology and Oceanography"
+   },
+   "Region": "Global",
+   "NonProceedingsRecordType": "Abstract archive",
+   "EvidenceSummary": "Premier aquatic sciences venue. Dissemination is primarily via abstracts/program archive rather than proceedings.",
+   "EvidenceURL": "https://www.aslo.org/meetings/",
+   "OfficialURL": "https://www.aslo.org/meetings/",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 135,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Animal Behavior",
+   "Meeting": "Animal Behavior Society Annual Meeting",
+   "Acronym": "ABS",
+   "Organizer": {
+      "Society": "Animal Behavior Society"
+   },
+   "Region": "Global / North America",
+   "NonProceedingsRecordType": "Abstract book / program",
+   "EvidenceSummary": "Key meeting in animal behavior and behavioral ecology. Record is program/abstract book, not full-paper proceedings.",
+   "EvidenceURL": "https://www.animalbehaviorsociety.org/meetings",
+   "OfficialURL": "https://www.animalbehaviorsociety.org/meetings",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 136,
+   "Category": "Biology & Life Sciences",
+   "Subdiscipline": "Microbiology",
+   "Meeting": "FEMS Congress of European Microbiologists",
+   "Acronym": "FEMS",
+   "Organizer": {
+      "Society": "FEMS"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Abstract book / archive",
+   "EvidenceSummary": "Major European microbiology congress. Scholarly record is abstract book/archive rather than proceedings volumes.",
+   "EvidenceURL": "https://www.fems-microbiology.org/events/",
+   "OfficialURL": "https://www.fems-microbiology.org/events/",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 137,
+   "Category": "Physical & Mathematical Sciences",
+   "Subdiscipline": "Physics (Condensed Matter)",
+   "Meeting": "EPS Condensed Matter Division Conference",
+   "Acronym": "EPS CMD",
+   "Organizer": {
+      "Society": "European Physical Society (Condensed Matter Division)"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Abstract-based program",
+   "EvidenceSummary": "Major European condensed-matter physics meeting with abstract-based program; not defined by archival proceedings volumes.",
+   "EvidenceURL": "https://www.eps.org/events",
+   "OfficialURL": "https://www.eps.org/events",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 138,
+   "Category": "Social Sciences",
+   "Subdiscipline": "Linguistics",
+   "Meeting": "Societas Linguistica Europaea Annual Meeting",
+   "Acronym": "SLE",
+   "Organizer": {
+      "Society": "Societas Linguistica Europaea"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program / abstract archive",
+   "EvidenceSummary": "Major European linguistics society meeting. Record is program/abstract archive rather than proceedings volumes.",
+   "EvidenceURL": "https://www.societaslinguistica.eu/events/",
+   "OfficialURL": "https://www.societaslinguistica.eu/events/",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 139,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "History / Social History",
+   "Meeting": "European Social Science History Conference",
+   "Acronym": "ESSHC",
+   "Organizer": {
+      "Society": "International Institute of Social History (organizer)"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program / panel archive",
+   "EvidenceSummary": "Major interdisciplinary history/social science conference. Scholarly record is panels/program archive, not proceedings.",
+   "EvidenceURL": "https://esshc.socialhistory.org/",
+   "OfficialURL": "https://esshc.socialhistory.org/",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+},
+ {
+   "ID": 140,
+   "Category": "Humanities & Arts",
+   "Subdiscipline": "Philosophy",
+   "Meeting": "European Philosophical Society Congress",
+   "Acronym": "EPS (Philosophy)",
+   "Organizer": {
+      "Society": "European Philosophical Society"
+   },
+   "Region": "Europe",
+   "NonProceedingsRecordType": "Program / panel archive",
+   "EvidenceSummary": "Pan-European philosophy congress. Scholarly record is program/panel archive, not proceedings.",
+   "EvidenceURL": "https://www.europeanphilosophicalsociety.com/",
+   "OfficialURL": "https://www.europeanphilosophicalsociety.com/",
+   "Confidence": "High",
+   "Notes": "Added (v4) from evidence-based suggestions."
+}
+]
