@@ -1,21 +1,28 @@
-const count = document.getElementById("count");
-const rows = document.getElementById("rows");
-const search = document.getElementById("search");
+document.addEventListener("DOMContentLoaded", () => {
+  const count = document.getElementById("count");
+  const rows = document.getElementById("rows");
+  const search = document.getElementById("search");
 
-count.textContent = "Loading data…";
-
-function getSociety(m){
-  if (m && typeof m.Organizer === "object" && m.Organizer) {
-    return m.Organizer.Society || "";
+  // If these don't exist, you're on a different page or IDs changed
+  if (!count || !rows || !search) {
+    console.log("Search page elements not found (count/rows/search).");
+    return;
   }
-  return m["Organizer/Society"] || "";
-}
 
-function render(list){
-  rows.innerHTML = "";
-  list.forEach(m => {
-    rows.innerHTML += `
-      <tr>
+  count.textContent = "Loading data…";
+
+  function getSociety(m){
+    if (m && typeof m.Organizer === "object" && m.Organizer) {
+      return m.Organizer.Society || "";
+    }
+    return m["Organizer/Society"] || "";
+  }
+
+  function render(list){
+    rows.innerHTML = "";
+    list.forEach(m => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
         <td>${m.Category || ""}</td>
         <td>${m.Subdiscipline || ""}</td>
         <td><strong>${m.Meeting || ""}</strong></td>
@@ -23,24 +30,38 @@ function render(list){
         <td>${getSociety(m)}</td>
         <td>${m.Region || ""}</td>
         <td>${m.Confidence || ""}</td>
-      </tr>`;
-  });
-  count.textContent = `${list.length} meetings shown`;
-}
-
-fetch("/data/meetings.json")
-  .then(r => r.json())
-  .then(data => {
-    render(data);
-
-    search.addEventListener("input", () => {
-      const q = search.value.toLowerCase();
-      render(data.filter(m =>
-        JSON.stringify(m).toLowerCase().includes(q)
-      ));
+      `;
+      rows.appendChild(tr);
     });
-  })
-  .catch(err => {
-    console.error(err);
-    count.textContent = "Error loading data.";
-  });
+    count.textContent = `${list.length} meetings shown`;
+  }
+
+  fetch("/data/meetings.json", { cache: "no-store" })
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status} while loading /data/meetings.json`);
+      return r.json();
+    })
+    .then(data => {
+      if (!Array.isArray(data)) throw new Error("meetings.json is not an array");
+      render(data);
+
+      search.addEventListener("input", () => {
+        const q = (search.value || "").toLowerCase().trim();
+        if (!q) return render(data);
+
+        const filtered = data.filter(m => {
+          const hay = [
+            m.Category, m.Subdiscipline, m.Meeting, m.Acronym,
+            getSociety(m), m.Region, m.NonProceedingsRecordType, m.EvidenceSummary
+          ].join(" ").toLowerCase();
+          return hay.includes(q);
+        });
+
+        render(filtered);
+      });
+    })
+    .catch(err => {
+      console.error(err);
+      count.textContent = "Error loading data: " + err.message;
+    });
+});
