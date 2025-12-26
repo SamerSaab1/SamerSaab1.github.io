@@ -111,6 +111,8 @@
 <script>
 const count2 = document.getElementById("count2");
 const rows2  = document.getElementById("rows2");
+const modal = document.getElementById("meetingModal");
+const closeBtn = document.getElementById("mClose");
 
 function getSociety(m){
   if (m && typeof m.Organizer === "object" && m.Organizer) return m.Organizer.Society || "";
@@ -125,6 +127,55 @@ function escapeHtml(s){
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 }
+
+function openMeetingModal(m){
+  if (!modal) return;
+
+  document.getElementById("mTitle").textContent = `${m.Meeting || ""} (${m.Acronym || ""})`;
+  document.getElementById("mSub").textContent = `${m.Subdiscipline || ""} • ${getSociety(m) || ""}`;
+
+  const conf = (m.Confidence || "").toString();
+  const confEl = document.getElementById("mConfidence");
+  confEl.textContent = `Confidence: ${conf || "—"}`;
+  confEl.className = "pill " + (conf.toLowerCase().startsWith("high") ? "high" : "medium");
+
+  document.getElementById("mCategory").textContent = `Category: ${m.Category || "—"}`;
+  document.getElementById("mRegion").textContent = `Region: ${m.Region || "—"}`;
+
+  document.getElementById("mRecord").textContent = m.NonProceedingsRecordType || "—";
+  document.getElementById("mEvidenceSummary").textContent = m.EvidenceSummary || "—";
+
+  const ev  = (m.EvidenceURL || "").toString().trim();
+  const off = (m.OfficialURL || "").toString().trim();
+  document.getElementById("mEvidenceLinks").innerHTML =
+    `${ev ? `<a href="${escapeHtml(ev)}" target="_blank" rel="noopener noreferrer">Evidence URL</a>` : "No evidence link provided."}
+     ${ev && off ? " · " : ""}
+     ${off ? `<a href="${escapeHtml(off)}" target="_blank" rel="noopener noreferrer">Official URL</a>` : ""}`;
+
+  document.getElementById("mConfExplain").textContent =
+    conf.toLowerCase().startsWith("high")
+      ? "High confidence: the non-proceedings scholarly record is clearly documented and easy to verify."
+      : "Medium confidence: the meeting is clearly prestigious, but public documentation is less explicit or varies by year.";
+
+  modal.style.display = "flex";
+}
+
+function closeMeetingModal(){
+  if (!modal) return;
+  modal.style.display = "none";
+}
+
+if (closeBtn) closeBtn.onclick = closeMeetingModal;
+
+if (modal){
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) closeMeetingModal();
+  });
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeMeetingModal();
+});
 
 function uniq(list){ return Array.from(new Set(list.filter(x=>x))).sort(); }
 
@@ -143,21 +194,30 @@ function render(list){
   list.forEach(m=>{
     const meetingText = escapeHtml(m.Meeting || "");
     const url = (m.OfficialURL || "").toString().trim();
-    const meetingCell = url
-      ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><strong>${meetingText}</strong></a>`
-      : `<strong>${meetingText}</strong>`;
+    const meetingCell = `
+      <strong>${meetingText}</strong>
+      ${url ? ` <a class="mini-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" title="Open official website">↗</a>` : "" }
+    `;
 
-    rows2.innerHTML += `
-      <tr>
-        <td>${escapeHtml(m.Category||"")}</td>
-        <td>${escapeHtml(m.Subdiscipline||"")}</td>
-        <td>${meetingCell}</td>
-        <td>${escapeHtml(m.Acronym||"")}</td>
-        <td>${escapeHtml(getSociety(m)||"")}</td>
-        <td>${escapeHtml(m.Region||"")}</td>
-        <td>${escapeHtml(m.NonProceedingsRecordType||"")}</td>
-        <td>${escapeHtml(m.Confidence||"")}</td>
-      </tr>`;
+    const tr = document.createElement("tr");
+    tr.style.cursor = "pointer";
+    tr.innerHTML = `
+      <td>${escapeHtml(m.Category||"")}</td>
+      <td>${escapeHtml(m.Subdiscipline||"")}</td>
+      <td>${meetingCell}</td>
+      <td>${escapeHtml(m.Acronym||"")}</td>
+      <td>${escapeHtml(getSociety(m)||"")}</td>
+      <td>${escapeHtml(m.Region||"")}</td>
+      <td>${escapeHtml(m.NonProceedingsRecordType||"")}</td>
+      <td>${escapeHtml(m.Confidence||"")}</td>
+    `;
+
+    tr.addEventListener("click", (evt) => {
+      if (evt.target.closest("a")) return;
+      openMeetingModal(m);
+    });
+
+    rows2.appendChild(tr);
   });
 
   count2.textContent = `${list.length} meetings shown`;
