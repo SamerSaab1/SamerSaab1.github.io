@@ -53,6 +53,11 @@ header, main { position: relative; z-index: 2; }
   border-color: var(--brand);
   color:#fff;
 }
+/* Center numbers in the Distribution table (Count column) */
+.page-card table td:nth-child(2),
+.page-card table th:nth-child(2){
+  text-align: center;
+}
 
 /* =========================
    ORBIT HERO HEADER (MORE SPACE)
