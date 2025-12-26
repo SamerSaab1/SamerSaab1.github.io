@@ -26,6 +26,59 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
   }
+  function openMeetingModal(m){
+  const modal = document.getElementById("meetingModal");
+  const closeBtn = document.getElementById("mClose");
+
+  // Fill header
+  document.getElementById("mTitle").textContent = `${m.Meeting || ""} (${m.Acronym || ""})`;
+  document.getElementById("mSub").textContent = `${m.Subdiscipline || ""} • ${getSociety(m) || ""}`;
+
+  // Pills
+  const conf = (m.Confidence || "").toString();
+  const confEl = document.getElementById("mConfidence");
+  confEl.textContent = `Confidence: ${conf || "—"}`;
+  confEl.className = "pill " + (conf.toLowerCase().startsWith("high") ? "high" : "medium");
+
+  document.getElementById("mCategory").textContent = `Category: ${m.Category || "—"}`;
+  document.getElementById("mRegion").textContent = `Region: ${m.Region || "—"}`;
+
+  // Criteria mapping
+  document.getElementById("mRecord").textContent = m.NonProceedingsRecordType || "—";
+  document.getElementById("mEvidenceSummary").textContent = m.EvidenceSummary || "—";
+
+  const ev = (m.EvidenceURL || "").toString().trim();
+  const off = (m.OfficialURL || "").toString().trim();
+  document.getElementById("mEvidenceLinks").innerHTML =
+    `${ev ? `<a href="${ev}" target="_blank" rel="noopener noreferrer">Evidence URL</a>` : "No evidence link provided."}
+     ${ev && off ? " · " : ""}
+     ${off ? `<a href="${off}" target="_blank" rel="noopener noreferrer">Official URL</a>` : ""}`;
+
+  document.getElementById("mConfExplain").textContent =
+    conf.toLowerCase().startsWith("high")
+      ? "High confidence: the non-proceedings scholarly record is clearly documented (e.g., abstract archive/supplement) and easy to verify."
+      : "Medium confidence: the meeting is clearly prestigious, but the public documentation of the non-proceedings record is less explicit or varies by year.";
+
+  // Show + close
+  modal.style.display = "flex";
+
+  function close(){
+    modal.style.display = "none";
+    modal.removeEventListener("click", backdropClose);
+    document.removeEventListener("keydown", escClose);
+  }
+  function backdropClose(e){
+    if (e.target === modal) close();
+  }
+  function escClose(e){
+    if (e.key === "Escape") close();
+  }
+
+  closeBtn.onclick = close;
+  modal.addEventListener("click", backdropClose);
+  document.addEventListener("keydown", escClose);
+}
+
 
   function render(list){
     rows.innerHTML = "";
