@@ -1,20 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
   const count = document.getElementById("count");
-  const rows = document.getElementById("rows");
+  const rows  = document.getElementById("rows");
   const search = document.getElementById("search");
 
-  // If these don't exist, you're on a different page or IDs changed
-  if (!count || !rows || !search) {
-    console.log("Search page elements not found (count/rows/search).");
-    return;
-  }
+  // If these don't exist, you're on another page
+  if (!count || !rows || !search) return;
+
+  // Modal elements (must exist in index.html)
+  const modal = document.getElementById("meetingModal");
+  const closeBtn = document.getElementById("mClose");
 
   count.textContent = "Loading data…";
 
   function getSociety(m){
-    if (m && typeof m.Organizer === "object" && m.Organizer) {
-      return m.Organizer.Society || "";
-    }
+    if (m && typeof m.Organizer === "object" && m.Organizer) return m.Organizer.Society || "";
     return m["Organizer/Society"] || "";
   }
 
@@ -26,59 +25,57 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
   }
+
   function openMeetingModal(m){
-  const modal = document.getElementById("meetingModal");
-  const closeBtn = document.getElementById("mClose");
+    if (!modal) return; // if modal not present, do nothing
 
-  // Fill header
-  document.getElementById("mTitle").textContent = `${m.Meeting || ""} (${m.Acronym || ""})`;
-  document.getElementById("mSub").textContent = `${m.Subdiscipline || ""} • ${getSociety(m) || ""}`;
+    document.getElementById("mTitle").textContent = `${m.Meeting || ""} (${m.Acronym || ""})`;
+    document.getElementById("mSub").textContent = `${m.Subdiscipline || ""} • ${getSociety(m) || ""}`;
 
-  // Pills
-  const conf = (m.Confidence || "").toString();
-  const confEl = document.getElementById("mConfidence");
-  confEl.textContent = `Confidence: ${conf || "—"}`;
-  confEl.className = "pill " + (conf.toLowerCase().startsWith("high") ? "high" : "medium");
+    const conf = (m.Confidence || "").toString();
+    const confEl = document.getElementById("mConfidence");
+    confEl.textContent = `Confidence: ${conf || "—"}`;
+    confEl.className = "pill " + (conf.toLowerCase().startsWith("high") ? "high" : "medium");
 
-  document.getElementById("mCategory").textContent = `Category: ${m.Category || "—"}`;
-  document.getElementById("mRegion").textContent = `Region: ${m.Region || "—"}`;
+    document.getElementById("mCategory").textContent = `Category: ${m.Category || "—"}`;
+    document.getElementById("mRegion").textContent = `Region: ${m.Region || "—"}`;
 
-  // Criteria mapping
-  document.getElementById("mRecord").textContent = m.NonProceedingsRecordType || "—";
-  document.getElementById("mEvidenceSummary").textContent = m.EvidenceSummary || "—";
+    document.getElementById("mRecord").textContent = m.NonProceedingsRecordType || "—";
+    document.getElementById("mEvidenceSummary").textContent = m.EvidenceSummary || "—";
 
-  const ev = (m.EvidenceURL || "").toString().trim();
-  const off = (m.OfficialURL || "").toString().trim();
-  document.getElementById("mEvidenceLinks").innerHTML =
-    `${ev ? `<a href="${ev}" target="_blank" rel="noopener noreferrer">Evidence URL</a>` : "No evidence link provided."}
-     ${ev && off ? " · " : ""}
-     ${off ? `<a href="${off}" target="_blank" rel="noopener noreferrer">Official URL</a>` : ""}`;
+    const ev  = (m.EvidenceURL || "").toString().trim();
+    const off = (m.OfficialURL || "").toString().trim();
+    document.getElementById("mEvidenceLinks").innerHTML =
+      `${ev ? `<a href="${escapeHtml(ev)}" target="_blank" rel="noopener noreferrer">Evidence URL</a>` : "No evidence link provided."}
+       ${ev && off ? " · " : ""}
+       ${off ? `<a href="${escapeHtml(off)}" target="_blank" rel="noopener noreferrer">Official URL</a>` : ""}`;
 
-  document.getElementById("mConfExplain").textContent =
-    conf.toLowerCase().startsWith("high")
-      ? "High confidence: the non-proceedings scholarly record is clearly documented (e.g., abstract archive/supplement) and easy to verify."
-      : "Medium confidence: the meeting is clearly prestigious, but the public documentation of the non-proceedings record is less explicit or varies by year.";
+    document.getElementById("mConfExplain").textContent =
+      conf.toLowerCase().startsWith("high")
+        ? "High confidence: the non-proceedings scholarly record is clearly documented and easy to verify."
+        : "Medium confidence: the meeting is clearly prestigious, but public documentation is less explicit or varies by year.";
 
-  // Show + close
-  modal.style.display = "flex";
+    modal.style.display = "flex";
+  }
 
-  function close(){
+  function closeMeetingModal(){
+    if (!modal) return;
     modal.style.display = "none";
-    modal.removeEventListener("click", backdropClose);
-    document.removeEventListener("keydown", escClose);
-  }
-  function backdropClose(e){
-    if (e.target === modal) close();
-  }
-  function escClose(e){
-    if (e.key === "Escape") close();
   }
 
-  closeBtn.onclick = close;
-  modal.addEventListener("click", backdropClose);
-  document.addEventListener("keydown", escClose);
-}
+  if (closeBtn) closeBtn.onclick = closeMeetingModal;
 
+  // Close modal by clicking the dark backdrop
+  if (modal){
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) closeMeetingModal();
+    });
+  }
+
+  // Close modal on Escape
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeMeetingModal();
+  });
 
   function render(list){
     rows.innerHTML = "";
@@ -86,12 +83,17 @@ document.addEventListener("DOMContentLoaded", () => {
       const meetingText = escapeHtml(m.Meeting || "");
       const url = (m.OfficialURL || "").toString().trim();
 
-      // Build the clickable meeting name safely
-      const meetingCell = url
-        ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><strong>${meetingText}</strong></a>`
-        : `<strong>${meetingText}</strong>`;
+      // IMPORTANT:
+      // - Clicking the ROW opens the modal
+      // - Meeting name stays as plain text (so it doesn't navigate away)
+      // - We add a small "Official" link icon to open website
+      const meetingCell = `
+        <strong>${meetingText}</strong>
+        ${url ? ` <a class="mini-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" title="Open official website">↗</a>` : "" }
+      `;
 
       const tr = document.createElement("tr");
+      tr.style.cursor = "pointer";
       tr.innerHTML = `
         <td>${escapeHtml(m.Category || "")}</td>
         <td>${escapeHtml(m.Subdiscipline || "")}</td>
@@ -101,6 +103,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <td>${escapeHtml(m.Region || "")}</td>
         <td>${escapeHtml(m.Confidence || "")}</td>
       `;
+
+      // If user clicks the small link (↗), do NOT open modal
+      tr.addEventListener("click", (evt) => {
+        if (evt.target.closest("a")) return;
+        openMeetingModal(m);
+      });
+
       rows.appendChild(tr);
     });
 
