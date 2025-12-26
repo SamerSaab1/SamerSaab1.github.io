@@ -68,6 +68,54 @@
   <div class="ring r5"><div class="sat s5" title="Humanities & Arts"></div></div>
   <div class="ring r6"><div class="sat s6" title="Physical & Mathematical Sciences"></div></div>
 </div>
+<!-- MEETING DETAILS MODAL -->
+<div id="meetingModal" class="modal-backdrop" style="display:none;">
+  <div class="modal-card">
+    <div class="modal-header">
+      <div>
+        <div id="mTitle" class="modal-title"></div>
+        <div id="mSub" class="modal-sub"></div>
+      </div>
+      <button id="mClose" class="modal-close" aria-label="Close">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="pill-row">
+        <span id="mConfidence" class="pill"></span>
+        <span id="mCategory" class="pill"></span>
+        <span id="mRegion" class="pill"></span>
+      </div>
+
+      <h3>How this meeting aligns with the selection criteria</h3>
+
+      <div class="criteria-box">
+        <div class="crit">
+          <div class="crit-h">1) Non-Proceedings criterion</div>
+          <div class="crit-b"><span id="mRecord"></span></div>
+        </div>
+
+        <div class="crit">
+          <div class="crit-h">2) Prestige / standing signal</div>
+          <div class="crit-b" id="mEvidenceSummary"></div>
+        </div>
+
+        <div class="crit">
+          <div class="crit-h">3) Evidence requirement</div>
+          <div class="crit-b" id="mEvidenceLinks"></div>
+        </div>
+
+        <div class="crit">
+          <div class="crit-h">4) Confidence classification</div>
+          <div class="crit-b" id="mConfExplain"></div>
+        </div>
+      </div>
+
+      <div class="modal-footnote">
+        Note: This is a contextual reference list, not a ranking.
+      </div>
+    </div>
+  </div>
+</div>
 
 <header class="orbit-header">
   <h1>ORBIT Non-Proceedings Meetings</h1>
