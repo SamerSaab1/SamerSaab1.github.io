@@ -25,7 +25,15 @@ document.addEventListener("DOMContentLoaded", () => {
       tr.innerHTML = `
         <td>${m.Category || ""}</td>
         <td>${m.Subdiscipline || ""}</td>
-        <td><strong>${m.Meeting || ""}</strong></td>
+        <td>
+  <strong>
+    ${m.OfficialURL
+      ? `<a href="${m.OfficialURL}" target="_blank" rel="noopener noreferrer">${m.Meeting || ""}</a>`
+      : (m.Meeting || "")
+    }
+  </strong>
+</td>
+
         <td>${m.Acronym || ""}</td>
         <td>${getSociety(m)}</td>
         <td>${m.Region || ""}</td>
