@@ -18,29 +18,39 @@ document.addEventListener("DOMContentLoaded", () => {
     return m["Organizer/Society"] || "";
   }
 
+  function escapeHtml(s){
+    return (s ?? "").toString()
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
   function render(list){
     rows.innerHTML = "";
     list.forEach(m => {
+      const meetingText = escapeHtml(m.Meeting || "");
+      const url = (m.OfficialURL || "").toString().trim();
+
+      // Build the clickable meeting name safely
+      const meetingCell = url
+        ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><strong>${meetingText}</strong></a>`
+        : `<strong>${meetingText}</strong>`;
+
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td>${m.Category || ""}</td>
-        <td>${m.Subdiscipline || ""}</td>
-        <td>
-  <strong>
-    ${m.OfficialURL
-      ? `<a href="${m.OfficialURL}" target="_blank" rel="noopener noreferrer">${m.Meeting || ""}</a>`
-      : (m.Meeting || "")
-    }
-  </strong>
-</td>
-
-        <td>${m.Acronym || ""}</td>
-        <td>${getSociety(m)}</td>
-        <td>${m.Region || ""}</td>
-        <td>${m.Confidence || ""}</td>
+        <td>${escapeHtml(m.Category || "")}</td>
+        <td>${escapeHtml(m.Subdiscipline || "")}</td>
+        <td>${meetingCell}</td>
+        <td>${escapeHtml(m.Acronym || "")}</td>
+        <td>${escapeHtml(getSociety(m) || "")}</td>
+        <td>${escapeHtml(m.Region || "")}</td>
+        <td>${escapeHtml(m.Confidence || "")}</td>
       `;
       rows.appendChild(tr);
     });
+
     count.textContent = `${list.length} meetings shown`;
   }
 
