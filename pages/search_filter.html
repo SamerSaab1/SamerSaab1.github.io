@@ -62,40 +62,60 @@
 
 <script>
 const count2 = document.getElementById("count2");
-const rows2 = document.getElementById("rows2");
+const rows2  = document.getElementById("rows2");
 
 function getSociety(m){
   if (m && typeof m.Organizer === "object" && m.Organizer) return m.Organizer.Society || "";
   return m["Organizer/Society"] || "";
 }
+
+function escapeHtml(s){
+  return (s ?? "").toString()
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 function uniq(list){ return Array.from(new Set(list.filter(x=>x))).sort(); }
+
 function fill(id, vals){
   const s = document.getElementById(id);
   vals.forEach(v => {
     const o = document.createElement("option");
-    o.value = v; o.textContent = v;
+    o.value = v;
+    o.textContent = v;
     s.appendChild(o);
   });
 }
+
 function render(list){
   rows2.innerHTML = "";
   list.forEach(m=>{
+    const meetingText = escapeHtml(m.Meeting || "");
+    const url = (m.OfficialURL || "").toString().trim();
+    const meetingCell = url
+      ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><strong>${meetingText}</strong></a>`
+      : `<strong>${meetingText}</strong>`;
+
     rows2.innerHTML += `
       <tr>
-        <td>${m.Category||""}</td>
-        <td>${m.Subdiscipline||""}</td>
-        <td><strong>${m.Meeting||""}</strong></td>
-        <td>${m.Acronym||""}</td>
-        <td>${getSociety(m)}</td>
-        <td>${m.Region||""}</td>
-        <td>${m.NonProceedingsRecordType||""}</td>
-        <td>${m.Confidence||""}</td>
+        <td>${escapeHtml(m.Category||"")}</td>
+        <td>${escapeHtml(m.Subdiscipline||"")}</td>
+        <td>${meetingCell}</td>
+        <td>${escapeHtml(m.Acronym||"")}</td>
+        <td>${escapeHtml(getSociety(m)||"")}</td>
+        <td>${escapeHtml(m.Region||"")}</td>
+        <td>${escapeHtml(m.NonProceedingsRecordType||"")}</td>
+        <td>${escapeHtml(m.Confidence||"")}</td>
       </tr>`;
   });
+
   count2.textContent = `${list.length} meetings shown`;
 }
 
-fetch("/data/meetings.json")
+fetch("/data/meetings.json", { cache: "no-store" })
   .then(r => r.json())
   .then(data=>{
     fill("cat", uniq(data.map(x=>x.Category)));
@@ -132,6 +152,7 @@ fetch("/data/meetings.json")
     count2.textContent = "Failed to load data.";
   });
 </script>
+
 
 </body>
 </html>
